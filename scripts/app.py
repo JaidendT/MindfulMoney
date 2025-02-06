@@ -7,11 +7,11 @@ app = Flask(__name__)
 # Connect to PostgreSQL database
 def get_db_connection():
     return psycopg2.connect(
-        dbname="your_db_name",
-        user="your_db_user",
-        password="your_db_password",
-        host="your_db_host",
-        port="your_db_port"
+        dbname="my_expense_tracker",
+        user="postgres",
+        password="Jaiden14648",
+        host="localhost",
+        port="5432"
     )
 
 @app.route("/transactions")
@@ -25,7 +25,7 @@ def transactions():
 
     # Query with optional date filtering
     if start_date and end_date:
-        cur.execute("""
+        cur.execute(""" 
             SELECT account, posting_date, transaction_date, description, category, money_in, money_out, fee, balance 
             FROM transactions
             WHERE transaction_date BETWEEN %s AND %s
@@ -37,6 +37,9 @@ def transactions():
     transactions = cur.fetchall()
     cur.close()
     conn.close()
+
+    # Print to check if data is being fetched
+    print(f"Fetched {len(transactions)} transactions")
 
     # Convert tuple data to dictionaries for Jinja
     transactions = [
@@ -54,7 +57,25 @@ def transactions():
         for row in transactions
     ]
 
-    return render_template("transactions.html", transactions=transactions)
+    # Function to format currency with 'R' and spaces after every 3 digits
+    def format_currency(amount):
+        return f"R{amount:,.2f}".replace(",", " ")
+
+    # Sum logic using float for correct type handling
+    total_income = sum(float(t["money_in"]) for t in transactions if float(t["money_in"]) > 0)
+    total_expenses = sum(abs(float(t["money_out"])) for t in transactions if float(t["money_out"]) < 0) + sum(abs(float(t["fee"])) for t in transactions if float(t["fee"]) > 0)
+    transactions_sorted = sorted(transactions, key=lambda x: x['transaction_date'], reverse=True)
+    final_balance = transactions_sorted[0]["balance"] if transactions_sorted else 0
+
+    # Format totals and balance
+    formatted_total_income = format_currency(total_income)
+    formatted_total_expenses = format_currency(total_expenses)
+    formatted_balance = format_currency(final_balance)
+
+    return render_template("transactions.html", transactions=transactions, 
+        total_income=formatted_total_income, 
+        total_expenses=formatted_total_expenses,
+        balance=formatted_balance)
 
 if __name__ == "__main__":
     app.run(debug=True)
