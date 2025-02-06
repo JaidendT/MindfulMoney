@@ -1,28 +1,61 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request
 import psycopg2
+import os
 
 app = Flask(__name__)
 
-# Database connection
+# Connect to PostgreSQL database
 def get_db_connection():
-    conn = psycopg2.connect(
-        dbname="my_expense_tracker",
-        user="postgres",
-        password="Jaiden14648",
-        host="localhost",
-        port="5432"
+    return psycopg2.connect(
+        dbname="your_db_name",
+        user="your_db_user",
+        password="your_db_password",
+        host="your_db_host",
+        port="your_db_port"
     )
-    return conn
 
-@app.route('/')
-def index():
+@app.route("/transactions")
+def transactions():
     conn = get_db_connection()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM transactions ORDER BY transaction_date DESC")
+
+    # Get date filters from request parameters
+    start_date = request.args.get('start_date')
+    end_date = request.args.get('end_date')
+
+    # Query with optional date filtering
+    if start_date and end_date:
+        cur.execute("""
+            SELECT account, posting_date, transaction_date, description, category, money_in, money_out, fee, balance 
+            FROM transactions
+            WHERE transaction_date BETWEEN %s AND %s
+            ORDER BY transaction_date DESC
+        """, (start_date, end_date))
+    else:
+        cur.execute("SELECT account, posting_date, transaction_date, description, category, money_in, money_out, fee, balance FROM transactions ORDER BY transaction_date DESC")
+
     transactions = cur.fetchall()
     cur.close()
     conn.close()
-    return render_template('index.html', transactions=transactions)
 
-if __name__ == '__main__':
+    # Convert tuple data to dictionaries for Jinja
+    transactions = [
+        {
+            "account": row[0],
+            "posting_date": row[1],
+            "transaction_date": row[2],
+            "description": row[3],
+            "category": row[4],
+            "money_in": row[5],
+            "money_out": row[6],
+            "fee": row[7],
+            "balance": row[8],
+        }
+        for row in transactions
+    ]
+
+    return render_template("transactions.html", transactions=transactions)
+
+if __name__ == "__main__":
     app.run(debug=True)
+
