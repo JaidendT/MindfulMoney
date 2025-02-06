@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>My Transactions</h1>
+    <table border="1">
+        <tr>
+            <th>Nr</th>
+            <th>Account</th>
+            <th>Posting Date</th>
+            <th>Transaction Date</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Money In</th>
+            <th>Money Out</th>
+            <th>Fee</th>
+            <th>Balance</th>
+        </tr>
+        {% for transaction in transactions %}
+        <tr>
+            <td>{{ transaction[0] }}</td>
+            <td>{{ transaction[1] }}</td>
+            <td>{{ transaction[2] }}</td>
+            <td>{{ transaction[3] }}</td>
+            <td>{{ transaction[4] }}</td>
+            <td>{{ transaction[5] }}</td>
+            <td>{{ transaction[6] }}</td>
+            <td>{{ transaction[7] }}</td>
+            <td>{{ transaction[8] }}</td>
+            <td>{{ transaction[9] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
