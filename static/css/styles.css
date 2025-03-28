@@ -1,0 +1,17 @@
+/* For making the webpage more narrow */
+.container {
+    max-width: 1200px;  /* Adjust this value to your preferred width */
+    margin: 0 auto;  /* Centers the container */
+}
+
+/* For adjusting the heading font size and family */
+h1, .tab-pane h3 {
+    font-family: 'Arial', sans-serif;  /* Change to your preferred font */
+    font-size: 36px;  /* Adjust the size as needed */
+}
+
+/* For adjusting the font size of tabs */
+.nav-tabs {
+    font-family: 'Arial', sans-serif;  /* Change to your preferred font */
+    font-size: 18px;  /* Adjust the size of the tabs */
+}

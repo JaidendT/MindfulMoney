@@ -1,30 +1,52 @@
 {% extends "index.html" %}
 
 {% block content %}
-<h1 class="text-center">Welcome to MindfulMoney</h1>
-<p class="text-center">Easily track and manage your finances.</p>
+<div class="container text-center mt-5">
+    <h1 class="display-4">MindfulMoney</h1>
+    <p class="lead">Take control of your finances with ease.</p>
 
-<div class="row mt-4">
-    <div class="col-md-6">
-        <h3>Add a New Transaction</h3>
-        <form>
-            <div class="mb-3">
-                <label class="form-label">Description</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label class="form-label">Amount</label>
-                <input type="number" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-primary">Add Transaction</button>
-        </form>
+    <!-- Navigation Cards -->
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <a href="/transactions" class="text-decoration-none">
+                <div class="card shadow-sm p-3">
+                    <h5 class="card-title">Transactions</h5>
+                    <p class="card-text">View and manage all transactions.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="/income" class="text-decoration-none">
+                <div class="card shadow-sm p-3">
+                    <h5 class="card-title">Income</h5>
+                    <p class="card-text">Track your earnings and sources.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="/expenses" class="text-decoration-none">
+                <div class="card shadow-sm p-3">
+                    <h5 class="card-title">Expenses</h5>
+                    <p class="card-text">Analyze and categorize your spending.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="/budget" class="text-decoration-none">
+                <div class="card shadow-sm p-3">
+                    <h5 class="card-title">Budget</h5>
+                    <p class="card-text">Set and track your financial goals.</p>
+                </div>
+            </a>
+        </div>
     </div>
 
-    <div class="col-md-6">
-        <h3>Upload CSV</h3>
-        <form enctype="multipart/form-data">
-            <input type="file" class="form-control">
-            <button type="submit" class="btn btn-success mt-2">Upload</button>
+    <!-- CSV Upload Section -->
+    <div class="mt-5">
+        <h3>Upload Your Transactions</h3>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" class="form-control w-50 mx-auto mt-2">
+            <button type="submit" class="btn btn-success mt-3">Upload CSV</button>
         </form>
     </div>
 </div>
