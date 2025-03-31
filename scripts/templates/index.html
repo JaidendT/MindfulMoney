@@ -3,26 +3,38 @@
     <head>
         <title>MindfulMoney | Home</title>
         <meta charset=utf-8>
-        <link rel="stylesheet", href="C:\Users\jaide\Documents\MindfulMoney\scripts\static\css\styles.css">
-        <link rel="icon" href="MindfulMoneyLogo.jpg">
+        <link rel="stylesheet", href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
     </head>
 
     <body>
-        <!--header and links to other pages-->
-        <h1>MindfulMoney</h1>
-        <img src="MindfulMoneyLogo.jpg" alt="image not found">
+        <!-- Header and Logo -->
+        <h1><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo not found">MindfulMoney</h1>
+        
+        <!-- Slogan -->
+        <h2><em>Track your spending, analyze income, budget smarter</em></h2>
+
+        <!-- Navigation Bar -->
         <nav>
             <ul>
                 <li><a href="transactions.html">Transactions</a></li>
                 <li><a href="income.html">Incomes</a></li>
                 <li><a href="expenses.html">Expenses</a></li>
-                <li><a href="budget.html">Budget</a></li>
+                <li><a href="budget.html">Budgets</a></li>
             </ul>
         </nav>
 
-        <!--banner-->
-        <p><em>Track your spending, anaylize income, and budget smarter</em></p>
-        <!--list the features of the website: track transactions, analyze income and expenses, set budgets, upload bank statements-->
+        <!-- Body of home page -->
+        <h3>Get started now!</h3>
+        <h4>Upload your bank statement</h4>
+        
+        <!-- Box to drag and drop CSV file -->
+         <div class="upload-box" id="drop-area">
+            <p>Drag & drop your CSV file here or <label for="fileInput" class="file-label">browse</label></p>
+            <input type="file" id="fileInput" accept=".csv" hidden></iput>
+         </div>
 
+        <!-- include javascript file -->
+        <script src="{{ url_for('static', filename='js/upload.js') }}"></script>
     </body>
 </html>
