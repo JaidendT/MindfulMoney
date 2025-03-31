@@ -13,5 +13,5 @@ A personal budgeting tool to track income and expenses, built using Python, SQL,
    git clone https://github.com/JaidendT/MindfulMoney.git
 
 2. Run on the server:
-   
+
    In MindfulMoney/scripts directory run "python app.py" and open the given IP address in a web browser.
