@@ -1,10 +1,10 @@
 # MindfulMoney
 
-A personal budgeting tool to track income and expenses, built using Python, SQL, and Excel.
+A personal budgeting tool to track and analyse income and expenses, built using Python, SQL, html, CSS, and JavaScript.
 
 ## Features
-- Extract banking transactions.
-- Store transactions in a SQL database.
+- Extract banking transactions from a bank statement.
+- Store transactions in a PostgreSQL database.
 - Analyze and visualize spending habits.
 
 ## Setup
@@ -13,5 +13,4 @@ A personal budgeting tool to track income and expenses, built using Python, SQL,
    git clone https://github.com/JaidendT/MindfulMoney.git
 
 2. Run on the server:
-
    In MindfulMoney/scripts directory run "python app.py" and open the given IP address in a web browser.
