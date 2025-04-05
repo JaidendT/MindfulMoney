@@ -28,16 +28,31 @@ def insert_data(df, conn):
     try:
         cursor = conn.cursor()
 
+        df = clean_data(df)
+
         for _, row in df.iterrows():
+             # Check if transaction already exists
             cursor.execute("""
-                INSERT INTO transactions (account, posting_date, transaction_date, 
-                description, category, money_in, money_out, fee, balance)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+                SELECT 1 FROM transactions
+                WHERE account = %s AND transaction_date = %s 
+                AND description = %s 
+                AND (money_in = %s OR money_out = %s OR fee = %s);
             """, (
-                row['Account'], row['Posting Date'], row['Transaction Date'], 
-                row['Description'], row['Category'], row['Money In'], row['Money Out'], 
-                row['Fee'], row['Balance']
+                row['Account'], row['Transaction Date'], 
+                row['Description'], row['Money In'], 
+                row['Money Out'], row['Fee']
             ))
+
+            if not cursor.fetchone():  # If no existing transaction, insert new one
+                cursor.execute("""
+                    INSERT INTO transactions (account, posting_date, transaction_date, 
+                    description, category, money_in, money_out, fee, balance)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+                """, (
+                    row['Account'], row['Posting Date'], row['Transaction Date'], 
+                    row['Description'], row['Category'], row['Money In'], 
+                    row['Money Out'], row['Fee'], row['Balance']
+                ))
 
         conn.commit()
         cursor.close()
@@ -68,3 +83,21 @@ def process_csv(file_path):
             return False, "Database connection failed."
     except Exception as e:
         return False, f"❌ Error processing CSV: {e}"
+
+
+def clean_data(df):
+    # Fill blank 'Money In' with 0.00
+    df['Money In'] = df['Money In'].fillna(0).astype(float)
+    df['Money Out'] = df['Money Out'].fillna(0).astype(float)
+    df['Fee'] = df['Fee'].fillna(0).astype(float)
+
+    # Drop rows where both 'Money In' and 'Money Out' are NaN
+    df = df[(df['Money In'] != 0) | (df['Money Out'] != 0) | (df['Fee'] != 0)]
+
+    # Remove duplicate transactions (same account, date, description, category, money in, money out, and fee)
+    df = df.drop_duplicates(subset=['Account', 'Transaction Date', 'Description', 'Category', 'Money In', 'Money Out', 'Fee'])
+
+    # Remove rows where 'Balance' is NaN
+    df = df.dropna(subset=['Balance'])
+
+    return df

@@ -1,130 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>MindfulMoney | Transactions</title>
-    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">MindfulMoney</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/transactions">Transactions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/income">Income</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/expenses">Expenses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/budget">Budget</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<html>
+    <head>
+        <title>MindfulMoney | Transactions</title>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
+    </head>
+    
+    <body>
+        <!-- Header and Logo -->
+        <h1><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo not found">MindfulMoney</h1>
+        
+        <!-- Slogan -->
+        <h2><em>Track your spending, analyze income, budget smarter</em></h2>
 
-    <!-- Filter and Upload Buttons -->
-    <div class="d-flex justify-content-between align-items-center my-3">
-        <form action="/transactions" method="get" class="d-flex">
-            <input type="date" name="start_date" class="form-control me-2" placeholder="Start Date" value="{{ request.args.get('start_date') }}">
-            <input type="date" name="end_date" class="form-control me-2" placeholder="End Date" value="{{ request.args.get('end_date') }}">
-            <button type="submit" class="btn btn-primary">Filter</button>
-        </form>
-        <a href="/upload" class="btn btn-success">Upload CSV</a>
-    </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url_for('transactions') }}">Transactions</a></li>
+                <li><a href="income.html">Incomes</a></li>
+                <li><a href="expenses.html">Expenses</a></li>
+                <li><a href="budget.html">Budgets</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Statistics Summary -->
+        <div class="stats-container">
+            <div class="stat-card income">Total Income: <span>{{ total_income }}</span></div>
+            <div class="stat-card expenses">Total Expenses: <span>{{ total_expenses }}</span></div>
+            <div class="stat-card balance">Balance: <span>{{ balance }}</span></div>
+        </div>
 
-    <!-- Statistics Cards -->
-    <div class="row mb-3">
-        <div class="col-md-4">
-            <div class="card text-white bg-success mb-3">
-                <div class="card-header">Total Income</div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ total_income }}</h5>
-                </div>
+        <!-- Filter by date button -->
+        <div class="filter-container">
+            <div class="date-group">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date">
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-white bg-danger mb-3">
-                <div class="card-header">Total Expenses</div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ total_expenses }}</h5>
-                </div>
+        
+            <div class="date-group">
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date">
             </div>
+        
+            <button onclick="filterByDate()">Filter</button>
         </div>
-        <div class="col-md-4">
-            <div class="card text-white bg-info mb-3">
-                <div class="card-header">Balance</div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ balance }}</h5>
-                </div>
-            </div>
+        
+        
+        <!-- Save Changes Button -->
+        <div class="save-container">
+            <button id="saveChangesBtn" onclick="saveCategoryChanges()">Save Changes</button>
         </div>
-    </div>
 
-    <!-- Transactions Table -->
-    <table class="table table-striped table-hover mt-3">
-        <thead class="table-light">
-            <tr>
-                <th>Account</th>
-                <th>Posting Date</th>
-                <th>Transaction Date</th>
-                <th>Description</th>
-                <th>Category</th>
-                <th>Money In</th>
-                <th>Money Out</th>
-                <th>Fee</th>
-                <th>Balance</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for transaction in transactions %}
+        <!-- Transactions Table -->
+        <table>
+            <thead>
                 <tr>
-                    <td>{{ transaction.account }}</td>
-                    <td>{{ transaction.posting_date }}</td>
-                    <td>{{ transaction.transaction_date }}</td>
-                    <td>{{ transaction.description }}</td>
-                    <td>{{ transaction.category }}</td>
-                    
-                    <!-- Apply green for money_in if positive, else default -->
-                    <td class="{% if transaction.money_in > 0 %}text-success{% else %}text-black{% endif %}">
-                        {{ transaction.money_in }}
-                    </td>
-                    
-                    <!-- Apply red for money_out if negative, else default -->
-                    <td class="{% if transaction.money_out < 0 %}text-danger{% else %}text-black{% endif %}">
-                        {{ transaction.money_out }}
-                    </td>
-                    
-                    <!-- Apply red for fee if positive, else default -->
-                    <td class="{% if transaction.fee < 0 %}text-danger{% else %}text-black{% endif %}">
-                        {{ transaction.fee }}
-                    </td>
-                    
-                    <!-- Balance column, apply colors based on money_in, money_out, or fee -->
-                    <td class="{% if transaction.money_in > 0 %}text-success{% elif transaction.money_out < 0 or transaction.fee > 0 %}text-danger{% else %}text-black{% endif %}">
-                        {{ transaction.balance }}
-                    </td>
+                    <th>Transaction Date</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Money In</th>
+                    <th>Money Out</th>
+                    <th>Fee</th>
+                    <th>Balance</th>
                 </tr>
-            {% else %}
-                <tr>
-                    <td colspan="9" class="text-center">No transactions found</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+            </thead>
+            <tbody>
+                {% for transaction in transactions %}
+                    <tr data-transaction-id="{{ transaction.nr }}" data-original-category="{{ transaction.category }}">
+                        <td>{{ transaction.transaction_date }}</td>
+                        <td>{{ transaction.description }}</td>
+                        <td> 
+                            <select class="category-select" name="category" onchange="markRowAsChanged(this)">
+                                {% for category in categories %}
+                                <option value="{{ category }}" {% if transaction.category == category %}selected{% endif %}>
+                                    {{ category }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>{{ transaction.money_in }}</td>
+                        <td>{{ transaction.money_out }}</td>
+                        <td>{{ transaction.fee }}</td>
+                        <td>{{ transaction.balance }}</td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="9" class="text-center">No transactions found</td>
+                    </tr>
+                {% endfor %}
+            </tbody>            
+        </table>
+    <!-- include javascript file -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
 </html>

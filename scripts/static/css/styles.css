@@ -1,0 +1,306 @@
+/* Main Heading */
+h1 {
+    font-size: 3em;
+    color: #92c5ff;
+    margin: -10px 0 50px -10px;
+    padding: 0;
+}
+
+/* Logo next to heading */
+h1 img {
+    width: 120px;
+    height: auto;
+    margin-bottom: -50px;
+    margin-right: 15px;
+}
+
+/* Banner Styling */
+h2 {
+    font-size: 1em;
+    color: #f79880;
+    margin: -45px 0 15px 125px;
+}
+
+body {
+    color: rgb(18, 60, 81);
+    font-family: "Lucida Bright", serif;
+    width: 100%;
+    background: none; 
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Background Blur & Transparency */
+body::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/Background.jpg") no-repeat center center/cover;
+    background-size: cover; 
+    background-position: center; 
+    filter: blur(3px); 
+    opacity: 0.55; 
+    z-index: -1; 
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Slight dark overlay */
+    z-index: -1;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(36, 35, 35, 0.8);
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: -130px;
+    height: 110px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-top: 45px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(173, 216, 230, 0.5); 
+}
+
+/********** HOME PAGE FORMATTING **********/ 
+h3 {
+    font-size: 60px;
+    color: rgb(226, 239, 243);
+    text-align: center;
+    margin: 120px 0 10px 0;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+    color: #adcdd8;
+}
+
+p {
+    font-size: 1.5em;
+    color: rgb(39, 39, 39)
+}
+
+.upload-box {
+    border: 2px dashed #adcdd8;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #adcdd8;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: -20px 400px 0 400px;
+}
+
+.upload-box:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.file-label {
+    color: #adcdd8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/********** TRANSACTIONS PAGE FORMATTING ***********/
+/* Stats Container */
+.stats-container {
+    display: flex;
+    justify-content: center; /* Center the stats horizontally */
+    gap: 30px;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+}
+
+/* Individual Stat Cards */
+.stat-card {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    min-width: 200px;
+}
+
+/* Specific Colors for Each Stat */
+.stat-card.income {
+    background-color: rgba(60, 173, 25, 0.8); 
+}
+
+.stat-card.expenses {
+    background-color: rgba(223, 58, 58, 0.8); /* Red for expenses */
+}
+
+.stat-card.balance {
+    background-color: rgba(50, 75, 129, 0.8); /* Blue for balance */
+}
+
+/* Filter Container */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Date Inputs and Button */
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spacing between groups */
+}
+
+.date-group {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between label and input */
+}
+
+.filter-container input, .filter-container button {
+    padding: 8px;
+    font-family: "Lucida Bright", serif;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-container button {
+    font-family: "Lucida Bright", serif;
+    font-size: 1.2em;
+    background-color: #92c5ff;
+    color: rgb(234, 245, 250);
+    border: none;
+    cursor: pointer;
+}
+
+.filter-container button:hover {
+    background-color: #7ea7d6;
+}
+
+.filter-container label {
+    background-color: #2C3E50;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Save Changes Button Container */
+.save-container {
+    position: absolute;
+    top: 245px; /* Adjust as needed */
+    right: 80px; /* Move far to the right */
+}
+
+/* Save Changes Button */
+#saveChangesBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Lucida Bright", serif;
+    font-size: 1.2em;
+}
+
+#saveChangesBtn:hover {
+    background-color: #45a049;
+}
+
+tr.changed-row {
+    background-color: #ff8787; /* light yellow for changed rows */
+}
+
+/* Table Styling */
+table {
+    width: 90%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+/* Table Headers */
+th {
+    background-color: #92c5ff;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Alternating Row Colors */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #d6e9ff;
+    transition: background-color 0.3s;
+}
+
+/* Center the "No transactions found" message */
+.text-center {
+    text-align: center;
+    font-weight: bold;
+    color: #888;
+}
+
+/* Categories drop down */
+.category-select {
+    padding: 5px;
+    font-family: "Lucida Bright", serif;
+    font-size: 1em;
+    color: rgb(18, 60, 81);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    width: 200px;
+}

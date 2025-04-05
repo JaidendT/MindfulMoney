@@ -3,7 +3,7 @@
     <head>
         <title>MindfulMoney | Home</title>
         <meta charset=utf-8>
-        <link rel="stylesheet", href="{{ url_for('static', filename='css/home_page.css') }}">
+        <link rel="stylesheet", href="{{ url_for('static', filename='css/styles.css') }}">
         <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
     </head>
 
@@ -17,6 +17,7 @@
         <!-- Navigation Bar -->
         <nav>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="{{ url_for('transactions') }}">Transactions</a>
                 <li><a href="income.html">Incomes</a></li>
                 <li><a href="expenses.html">Expenses</a></li>
@@ -35,6 +36,6 @@
          </div>
 
         <!-- include javascript file -->
-        <script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     </body>
 </html>
