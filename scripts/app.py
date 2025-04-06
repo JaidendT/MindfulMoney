@@ -25,6 +25,11 @@ def safe_decimal(value):
     except (InvalidOperation, TypeError, ValueError):
         return Decimal('0.00')  # Return a safe 0.00 if anything goes wrong
 
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+
 @app.route("/transactions")
 def transactions():
     conn = get_db_connection()
@@ -128,6 +133,7 @@ def transactions():
         balance=format_currency(final_balance)
     )
 
+
 @app.route("/upload", methods=["POST"])
 def upload_csv():
     if 'file' not in request.files:
@@ -184,9 +190,10 @@ def update_transactions():
         cur.close()
         conn.close()
 
-@app.route("/")
-def home():
-    return render_template("index.html")
+
+@app.route("/budget")
+def budget():
+    return render_template("budget.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

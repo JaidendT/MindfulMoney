@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MindfulMoney | Budgets</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
+    </head>
+
+    <body>
+       <!-- Navigation Bar -->
+       <nav>
+            <!-- Header and Logo -->
+            <div class="header-content">
+                <h1>
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo not found">
+                    MindfulMoney
+                </h1>
+                
+                <!-- Slogan -->
+                <h2><em>Track your spending, analyze income, budget smarter</em></h2>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('transactions') }}">Transactions</a></li>
+                <li><a href="income.html">Incomes</a></li>
+                <li><a href="expenses.html">Expenses</a></li>
+                <li><a href="{{ url_for('budget') }}">Budgets</a></li>
+            </ul>
+        </nav>
+
+        <!-- Monthly Budget Section -->
+        <section class="annual-budget">
+            <h3>Monthly Budget Setup</h3>
+            <div class="remaining-balance">
+                Remaining Balance: R<span id="remaining-amount">0.00</span>
+            </div>   
+            <!-- Save Changes Button -->
+            <button class="save-changes-btn">Save Changes</button>           
+            <div class="budget-row">
+                <!-- Income Section -->
+                <div class="budget-box">
+                    <h4>Income</h4>
+                    <small class="section-instruction">Enter the monthly income amounts you expect to receive for each category.</small>
+                    <table>
+                        <div class="total-display">Total Budgeted: R<span class="total-amount">0.00</span></div>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Amount (R)</th>
+                          </tr>                          
+                        <tr><td>Diesel Money</td><td><input type="number"></td></tr>
+                        <tr><td>Notes</td><td><input type="number"></td></tr>
+                        <tr><td>Tutoring</td><td><input type="number"></td></tr>
+                        <tr><td>Transfer from Savings</td><td><input type="number"></td></tr>
+                        <tr><td>Interest Received</td><td><input type="number"></td></tr>
+                        <tr><td>Other Income</td><td><input type="number"></td></tr>
+                    </table>
+                    <div class="table-buttons">
+                        <button class="add-btn">+ Add Category</button>
+                        <button class="delete-btn">– Delete Category</button>
+                    </div>
+                </div>
+
+                <!-- Expenses Section -->
+                <div class="budget-box">
+                    <h4>Expenses</h4>
+                    <small class="section-instruction">Enter the monthly expenses you expect to spend in each category.</small>
+                    <table>
+                        <div class="total-display">Total Budgeted: R<span class="total-amount">0.00</span></div>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Amount (R)</th>
+                          </tr>                          
+                        <tr><td>Takeaways</td><td><input type="number"></td></tr>
+                        <tr><td>Betting/Lottery</td><td><input type="number"></td></tr>
+                        <tr><td>Cellphone</td><td><input type="number"></td></tr>
+                        <tr><td>Groceries</td><td><input type="number"></td></tr>
+                        <tr><td>Going Out</td><td><input type="number"></td></tr>
+                        <tr><td>Personal Care</td><td><input type="number"></td></tr>
+                        <tr><td>Digital Payments</td><td><input type="number"></td></tr>
+                        <tr><td>Uncategorised</td><td><input type="number"></td></tr>
+                        <tr><td>Fees</td><td><input type="number"></td></tr>
+                        <tr><td>Vehicle Maintenance</td><td><input type="number"></td></tr>
+                        <tr><td>Restaurants</td><td><input type="number"></td></tr>
+                        <tr><td>Sport & Hobbies</td><td><input type="number"></td></tr>
+                        <tr><td>Fuel</td><td><input type="number"></td></tr>
+                        <tr><td>Parking</td><td><input type="number"></td></tr>
+                        <tr><td>Pharmacy</td><td><input type="number"></td></tr>
+                        <tr><td>Online Store</td><td><input type="number"></td></tr>
+                        <tr><td>Doctors & Therapists</td><td><input type="number"></td></tr>
+                        <tr><td>Education</td><td><input type="number"></td></tr>
+                        <tr><td>Clothing & Shoes</td><td><input type="number"></td></tr>
+                    </table>
+                    <div class="table-buttons">
+                        <button class="add-btn">+ Add Category</button>
+                        <button class="delete-btn">– Delete Category</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="budget-row">
+                <!-- Savings Section -->
+                <div class="budget-box">
+                    <h4>Savings</h4>
+                    <small class="section-instruction">Enter the monthly amounts you plan to move into your savings account.</small>
+                    <table>
+                        <div class="total-display">Total Budgeted: R<span class="total-amount">0.00</span></div>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Amount (R)</th>
+                          </tr>                          
+                        <tr><td>Transfers to Savings Account</td><td><input type="number"></td></tr>
+                    </table>
+                    <div class="table-buttons">
+                        <button class="add-btn">+ Add Category</button>
+                        <button class="delete-btn">– Delete Category</button>
+                    </div>
+                </div>
+
+                <!-- Investments Section -->
+                <div class="budget-box">
+                    <h4>Investments</h4>
+                    <small class="section-instruction">Enter the monthly amounts you plan to invest in each category.</small>
+                    <table>
+                        <div class="total-display">Total Budgeted: R<span class="total-amount">0.00</span></div>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Amount (R)</th>
+                          </tr>                          
+                        <tr><td>Transfers to Investment Account</td><td><input type="number"></td></tr>
+                        <tr><td>ETFs</td><td><input type="number"></td></tr>
+                    </table>
+                    <div class="table-buttons">
+                        <button class="add-btn">+ Add Category</button>
+                        <button class="delete-btn">– Delete Category</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Annual Visualisation Section -->
+        <section>
+            <h3>Annual Budget Visualisation</h3>
+            <div id="annual-charts">
+                <!-- Graphs for income, expenses, savings, investments -->
+            </div>
+        </section>
+
+        <!-- Monthly Budget Adjustment Section -->
+        <section>
+            <h3>Monthly Budget Adjustments</h3>
+
+            <div class="month-selector">
+                <label for="month">Current Month:</label>
+                <span id="current-month"></span>
+
+                <label for="select-month">Change Month:</label>
+                <select id="select-month">
+                    <option>January</option><option>February</option><option>March</option><option>April</option>
+                    <option>May</option><option>June</option><option>July</option><option>August</option>
+                    <option>September</option><option>October</option><option>November</option><option>December</option>
+                </select>
+            </div>
+
+            <div class="adjustment-form">
+                <label for="section-type">Section:</label>
+                <select id="section-type">
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                    <option value="savings">Savings</option>
+                    <option value="investment">Investment</option>
+                </select>
+
+                <label for="category">Category:</label>
+                <select id="category">
+                    <!-- Dynamically populated -->
+                </select>
+
+                <label for="new-amount">New Amount (R):</label>
+                <input type="number" id="new-amount">
+
+                <button id="update-budget">Update</button>
+            </div>
+        </section>
+
+        <!-- Monthly Visualisation Section -->
+        <section>
+            <h3>Monthly Budget Visualisation</h3>
+            <div id="monthly-charts">
+                <!-- Monthly-specific graphs -->
+            </div>
+        </section>
+
+        <!-- Scripts -->
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>

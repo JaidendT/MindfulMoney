@@ -8,20 +8,26 @@
     </head>
 
     <body>
-        <!-- Header and Logo -->
-        <h1><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo not found">MindfulMoney</h1>
-        
-        <!-- Slogan -->
-        <h2><em>Track your spending, analyze income, budget smarter</em></h2>
-
         <!-- Navigation Bar -->
         <nav>
+            <!-- Header and Logo -->
+            <div class="header-content">
+                <h1>
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo not found">
+                    MindfulMoney
+                </h1>
+                
+                <!-- Slogan -->
+                <h2><em>Track your spending, analyze income, budget smarter</em></h2>
+            </div>
+
+            <!-- Navigation Links -->
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="{{ url_for('transactions') }}">Transactions</a>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('transactions') }}">Transactions</a></li>
                 <li><a href="income.html">Incomes</a></li>
                 <li><a href="expenses.html">Expenses</a></li>
-                <li><a href="budget.html">Budgets</a></li>
+                <li><a href="{{ url_for('budget') }}">Budgets</a></li>
             </ul>
         </nav>
 
