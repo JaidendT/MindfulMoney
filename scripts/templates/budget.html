@@ -41,7 +41,7 @@
             <button class="save-changes-btn">Save Changes</button>           
             <div class="budget-row">
                 <!-- Income Section -->
-                <div class="budget-box">
+                <div class="budget-box income">
                     <h4>Income</h4>
                     <small class="section-instruction">Enter the monthly income amounts you expect to receive for each category.</small>
                     <table>
@@ -50,12 +50,13 @@
                             <th class="category-col">Category</th>
                             <th class="amount-col">Amount (R)</th>
                           </tr>                          
-                        <tr><td>Diesel Money</td><td><input type="number"></td></tr>
-                        <tr><td>Notes</td><td><input type="number"></td></tr>
-                        <tr><td>Tutoring</td><td><input type="number"></td></tr>
-                        <tr><td>Transfer from Savings</td><td><input type="number"></td></tr>
-                        <tr><td>Interest Received</td><td><input type="number"></td></tr>
-                        <tr><td>Other Income</td><td><input type="number"></td></tr>
+                        <tr><td>Diesel Money</td>
+                            <td><input class="budget-input" type="number", data-section="income", data-category="Diesel Money"></td></tr>
+                        <tr><td>Notes</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Tutoring</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Transfer from Savings</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Interest Received</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Other Income</td><td><input class="budget-input" type="number"></td></tr>
                     </table>
                     <div class="table-buttons">
                         <button class="add-btn">+ Add Category</button>
@@ -64,7 +65,7 @@
                 </div>
 
                 <!-- Expenses Section -->
-                <div class="budget-box">
+                <div class="budget-box expense">
                     <h4>Expenses</h4>
                     <small class="section-instruction">Enter the monthly expenses you expect to spend in each category.</small>
                     <table>
@@ -73,25 +74,25 @@
                             <th class="category-col">Category</th>
                             <th class="amount-col">Amount (R)</th>
                           </tr>                          
-                        <tr><td>Takeaways</td><td><input type="number"></td></tr>
-                        <tr><td>Betting/Lottery</td><td><input type="number"></td></tr>
-                        <tr><td>Cellphone</td><td><input type="number"></td></tr>
-                        <tr><td>Groceries</td><td><input type="number"></td></tr>
-                        <tr><td>Going Out</td><td><input type="number"></td></tr>
-                        <tr><td>Personal Care</td><td><input type="number"></td></tr>
-                        <tr><td>Digital Payments</td><td><input type="number"></td></tr>
-                        <tr><td>Uncategorised</td><td><input type="number"></td></tr>
-                        <tr><td>Fees</td><td><input type="number"></td></tr>
-                        <tr><td>Vehicle Maintenance</td><td><input type="number"></td></tr>
-                        <tr><td>Restaurants</td><td><input type="number"></td></tr>
-                        <tr><td>Sport & Hobbies</td><td><input type="number"></td></tr>
-                        <tr><td>Fuel</td><td><input type="number"></td></tr>
-                        <tr><td>Parking</td><td><input type="number"></td></tr>
-                        <tr><td>Pharmacy</td><td><input type="number"></td></tr>
-                        <tr><td>Online Store</td><td><input type="number"></td></tr>
-                        <tr><td>Doctors & Therapists</td><td><input type="number"></td></tr>
-                        <tr><td>Education</td><td><input type="number"></td></tr>
-                        <tr><td>Clothing & Shoes</td><td><input type="number"></td></tr>
+                        <tr><td>Takeaways</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Betting/Lottery</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Cellphone</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Groceries</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Going Out</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Personal Care</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Digital Payments</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Uncategorised</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Fees</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Vehicle Maintenance</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Restaurants</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Sport & Hobbies</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Fuel</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Parking</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Pharmacy</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Online Store</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Doctors & Therapists</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Education</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>Clothing & Shoes</td><td><input class="budget-input" type="number"></td></tr>
                     </table>
                     <div class="table-buttons">
                         <button class="add-btn">+ Add Category</button>
@@ -102,7 +103,7 @@
 
             <div class="budget-row">
                 <!-- Savings Section -->
-                <div class="budget-box">
+                <div class="budget-box savings">
                     <h4>Savings</h4>
                     <small class="section-instruction">Enter the monthly amounts you plan to move into your savings account.</small>
                     <table>
@@ -111,7 +112,7 @@
                             <th class="category-col">Category</th>
                             <th class="amount-col">Amount (R)</th>
                           </tr>                          
-                        <tr><td>Transfers to Savings Account</td><td><input type="number"></td></tr>
+                        <tr><td>Transfers to Savings Account</td><td><input class="budget-input" type="number"></td></tr>
                     </table>
                     <div class="table-buttons">
                         <button class="add-btn">+ Add Category</button>
@@ -120,7 +121,7 @@
                 </div>
 
                 <!-- Investments Section -->
-                <div class="budget-box">
+                <div class="budget-box investment">
                     <h4>Investments</h4>
                     <small class="section-instruction">Enter the monthly amounts you plan to invest in each category.</small>
                     <table>
@@ -129,8 +130,8 @@
                             <th class="category-col">Category</th>
                             <th class="amount-col">Amount (R)</th>
                           </tr>                          
-                        <tr><td>Transfers to Investment Account</td><td><input type="number"></td></tr>
-                        <tr><td>ETFs</td><td><input type="number"></td></tr>
+                        <tr><td>Transfers to Investment Account</td><td><input class="budget-input" type="number"></td></tr>
+                        <tr><td>ETFs</td><td><input class="budget-input" type="number"></td></tr>
                     </table>
                     <div class="table-buttons">
                         <button class="add-btn">+ Add Category</button>

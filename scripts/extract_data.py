@@ -34,11 +34,11 @@ def insert_data(df, conn):
              # Check if transaction already exists
             cursor.execute("""
                 SELECT 1 FROM transactions
-                WHERE account = %s AND transaction_date = %s 
+                WHERE account = %s AND posting_date = %s 
                 AND description = %s 
                 AND (money_in = %s OR money_out = %s OR fee = %s);
             """, (
-                row['Account'], row['Transaction Date'], 
+                row['Account'], row['Posting Date'], 
                 row['Description'], row['Money In'], 
                 row['Money Out'], row['Fee']
             ))
@@ -95,7 +95,7 @@ def clean_data(df):
     df = df[(df['Money In'] != 0) | (df['Money Out'] != 0) | (df['Fee'] != 0)]
 
     # Remove duplicate transactions (same account, date, description, category, money in, money out, and fee)
-    df = df.drop_duplicates(subset=['Account', 'Transaction Date', 'Description', 'Category', 'Money In', 'Money Out', 'Fee'])
+    df = df.drop_duplicates(subset=['Account', 'Posting Date', 'Description', 'Category', 'Money In', 'Money Out', 'Fee'])
 
     # Remove rows where 'Balance' is NaN
     df = df.dropna(subset=['Balance'])

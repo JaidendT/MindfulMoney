@@ -338,13 +338,13 @@ tbody tr:hover {
 }
 
 .save-changes-btn:hover {
-    background-color: #45a049;/
+    background-color: #45a049;
 }
 
 .section-instruction {
     display: block;
     font-size: 1em;
-    color: rgb(39, 39, 39);
+    color: rgb(12, 30, 54);
     margin-bottom: 40px;
     margin-top: -40px;
 }

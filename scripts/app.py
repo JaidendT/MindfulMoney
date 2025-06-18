@@ -41,18 +41,18 @@ def transactions():
     # Query for transactions
     if start_date and end_date:
         cur.execute(""" 
-            SELECT nr, transaction_date, description, category, 
+            SELECT nr, posting_date, description, category, 
                 money_in, money_out, fee, balance
             FROM transactions
-            WHERE transaction_date BETWEEN %s AND %s
-            ORDER BY transaction_date DESC;
+            WHERE posting_date BETWEEN %s AND %s
+            ORDER BY posting_date DESC;
         """, (start_date, end_date))
     else:
         cur.execute("""
-            SELECT nr, transaction_date, description, category, 
+            SELECT nr, posting_date, description, category, 
                 money_in, money_out, fee, balance
             FROM transactions
-            ORDER BY transaction_date DESC;
+            ORDER BY posting_date DESC;
         """)
 
     transactions = cur.fetchall()
@@ -65,7 +65,7 @@ def transactions():
                 SUM(CASE WHEN money_out IS NOT NULL THEN ABS(money_out) ELSE 0 END) + 
                 SUM(CASE WHEN fee IS NOT NULL THEN ABS(fee) ELSE 0 END) AS total_expenses
             FROM transactions
-            WHERE transaction_date BETWEEN %s AND %s;
+            WHERE posting_date BETWEEN %s AND %s;
         """, (start_date, end_date))
     else:
         cur.execute("""
@@ -102,7 +102,7 @@ def transactions():
     transactions = [
         {
             "nr": row[0],
-            "transaction_date": row[1],
+            "posting_date": row[1],
             "description": row[2],
             "category": row[3],
             "money_in": row[4],
@@ -121,7 +121,7 @@ def transactions():
         except (InvalidOperation, TypeError, ValueError) as e:
             return "R0.00"
        
-    transactions_sorted = sorted(transactions, key=lambda x: x['transaction_date'], reverse=True)
+    transactions_sorted = sorted(transactions, key=lambda x: x['posting_date'], reverse=True)
     final_balance = transactions_sorted[0]["balance"] if transactions_sorted else 0
 
     return render_template(

@@ -64,7 +64,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>Transaction Date</th>
+                    <th>Posting Date</th>
                     <th>Description</th>
                     <th>Category</th>
                     <th>Money In</th>
@@ -76,7 +76,7 @@
             <tbody>
                 {% for transaction in transactions %}
                     <tr data-transaction-id="{{ transaction.nr }}" data-original-category="{{ transaction.category }}">
-                        <td>{{ transaction.transaction_date }}</td>
+                        <td>{{ transaction.posting_date }}</td>
                         <td>{{ transaction.description }}</td>
                         <td> 
                             <select class="category-select" name="category" onchange="markRowAsChanged(this)">

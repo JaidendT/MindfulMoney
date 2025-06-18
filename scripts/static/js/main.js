@@ -1,3 +1,4 @@
+/******************** HOME PAGE ********************/
 document.addEventListener("DOMContentLoaded", () => {
     const dropArea = document.getElementById("drop-area");
     const fileInput = document.getElementById("fileInput");
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (file) handleFile(file);
     });
 
+    // Uploading CSV file funtionality
     function handleFile(file) {
         if (file.type !== "text/csv") {
             alert("Please upload a valid CSV file.");
@@ -59,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+/******************** TRANSACTIONS PAGE ********************/
+// filter transactions by date button
 function filterByDate() {
     const startDate = document.getElementById("start-date").value;
     const endDate = document.getElementById("end-date").value;
@@ -71,6 +75,7 @@ function filterByDate() {
     }
 }
 
+// changing colour of rows with changed categories
 function markRowAsChanged(selectElement) {
     const row = selectElement.closest("tr");
     const originalCategory = row.getAttribute("data-original-category");
@@ -85,6 +90,7 @@ function markRowAsChanged(selectElement) {
     }
 }
 
+// save category changes to database
 function saveCategoryChanges() {
     const changedRows = document.querySelectorAll("tr[data-changed='true']");
     if (changedRows.length === 0) {
@@ -131,3 +137,47 @@ function saveCategoryChanges() {
         alert("An error occurred while saving changes.");
     });
 }
+
+
+/******************* BUDGETS PAGE  ********************/
+// Function to calculate the total for each section
+function calculateTotal(sectionClass) {
+    let total = 0;
+
+    // Select all input fields within the given section (income, expenses, etc.)
+    const inputs = document.querySelectorAll(`${sectionClass} .budget-input`);
+
+    // Sum up the values of the input fields
+    inputs.forEach(input => {
+        const value = parseFloat(input.value) || 0; // Handle non-numeric inputs (NaN)
+        total += value;
+    });
+
+    // Update the total amount in the corresponding total display
+    const totalAmountElement = document.querySelector(`${sectionClass} .total-amount`);
+    if (totalAmountElement) {
+        totalAmountElement.textContent = total.toFixed(2); // Format to 2 decimal places
+    }
+}
+
+// Function to trigger total calculation whenever an input value changes
+function setupEventListeners() {
+    // Add event listeners to all budget input fields
+    const allInputs = document.querySelectorAll('.budget-input');
+    allInputs.forEach(input => {
+        input.addEventListener('input', function() {
+            // Get the parent section element that the input belongs to
+            const section = input.closest('.budget-box'); // Get the closest budget-box (parent container)
+
+            // Get the section's specific class (e.g., .income, .expense, etc.)
+            const sectionClass = `.${section.classList[1]}`;
+
+            // Calculate the total for this section
+            calculateTotal(sectionClass);
+        });
+    });
+}
+
+// Run the setup function once the page loads
+document.addEventListener('DOMContentLoaded', setupEventListeners);
+

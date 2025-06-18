@@ -13,4 +13,11 @@ A personal budgeting tool to track and analyse income and expenses, built using 
    git clone https://github.com/JaidendT/MindfulMoney.git
 
 2. Run on the server:
-   In MindfulMoney/scripts directory run "python app.py" and open the given IP address in a web browser.
+   In MindfulMoney/scripts directory run 
+	```bash 
+	"python app.py" and open the given IP address in a web browser.
+
+3. Query PostgreSQL database:
+   In the root directory run:
+   ```bash
+   "psql -U postgres -d my_expense_tracker"
