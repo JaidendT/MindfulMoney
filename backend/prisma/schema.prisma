@@ -1,0 +1,27 @@
+// Prisma schema for MindfulMoney
+// This defines your database structure using Prisma ORM
+
+// Database connection configuration
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Transaction model - represents a single financial transaction
+model Transaction {
+  id          Int      @id @default(autoincrement())
+  date        DateTime                              // Transaction date
+  description String?                               // Transaction description/memo
+  amount      Float                                 // Amount (positive = income, negative = spending)
+  balance     Float?                                // Account balance after transaction
+  category    String?                               // Transaction category
+  createdAt   DateTime @default(now())              // When record was added to database
+  updatedAt   DateTime @updatedAt                   // Last update timestamp
+
+  @@index([date])                                   // Index for faster date queries
+  @@map("transactions")                             // Table name in database
+}
