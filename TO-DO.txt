@@ -1,3 +1,0 @@
-dynamically create a budget table and budget_categories table for new users
-populate budget_categories with default categories from the transactions table for new users (if the budget_categories table is empty)
-populate the budget table with the categories from the budget_categories table and amounts calculated by taking the mean of the category from the transactions across the months (or total of the category if <= 1 month of data)

@@ -1,4 +1,4 @@
-# MindfulMoney - Clean Implementation
+# MindfulMoney Implementation
 
 A personal budgeting application built with Express.js, React, Prisma, and PostgreSQL.
 
