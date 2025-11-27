@@ -1,0 +1,425 @@
+Nr,Account,Posting Date,Transaction Date,Description,Original Description,Parent Category,Category,Money In,Money Out,Fee,Balance
+1,1927752963,2024-10-01,2024-10-01 18:21,Payment Received: Rtc 1616edb069 Master Maths,RTC 1616EDB069 Master Maths,Other Income,Other Income,780.00,,,2211.68
+2,1927752963,2024-10-01,2024-10-01 22:27,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2211.33
+3,1927752963,2024-10-02,2024-09-30 10:11,Mybrewcoffeeroaste Stellenbosch (Card 4449),MYBREWCOFFEEROASTE     STELLENBOSCH ZAZA,Food,Restaurants,,-24.00,,2187.33
+4,1927752963,2024-10-02,2024-09-30 13:44,Engen Stellenbosch (Card 4449),ENGEN STELLENBOSCH     Stellenbosch   ZA,Transport,Fuel,,-766.10,,1421.23
+5,1927752963,2024-10-02,2024-10-02 08:52,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-74.00,,1347.23
+6,1927752963,2024-10-02,2024-10-02 08:52,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1346.73
+7,1927752963,2024-10-02,2024-10-02 22:20,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1346.38
+8,1927752963,2024-10-03,2024-10-03 19:31,Lotto Payment (UWNY76931972),|UWNY76931972,Entertainment,Betting/Lottery,,-5.00,,1341.38
+9,1927752963,2024-10-03,2024-10-03 19:31,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,1339.88
+10,1927752963,2024-10-03,2024-10-03 19:31,PowerBall Payment (ANHV37949732),|ANHV37949732,Entertainment,Betting/Lottery,,-5.00,,1334.88
+11,1927752963,2024-10-03,2024-10-03 19:31,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1333.38
+12,1927752963,2024-10-03,2024-10-03 19:32,Daily Lotto Payment (TCHO36197174),|TCHO36197174,Entertainment,Betting/Lottery,,-3.00,,1330.38
+13,1927752963,2024-10-03,2024-10-03 19:32,Daily Lotto Payment Fee,Daily Lotto Payment Fee,Fees,Fees,,,-1.50,1328.88
+14,1927752963,2024-10-03,2024-10-03 19:32,PowerBall Payment (YOKR87308924),|YOKR87308924,Entertainment,Betting/Lottery,,-7.50,,1321.38
+15,1927752963,2024-10-03,2024-10-03 19:32,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1319.88
+16,1927752963,2024-10-04,2024-10-04 22:33,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1319.53
+17,1927752963,2024-10-05,2024-10-05 22:44,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1319.18
+18,1927752963,2024-10-06,2024-10-04 13:17,Ik *tamaties Stellenbosch (Card 4449),iK *TaMaties           STELLENBOSCH WCZA,Food,Groceries,,-60.00,,1259.18
+19,1927752963,2024-10-07,2024-10-07 21:00,Lotto Payment (MBRJ91148737),|MBRJ91148737,Entertainment,Betting/Lottery,,-10.00,,1249.18
+20,1927752963,2024-10-07,2024-10-07 21:00,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,1247.68
+21,1927752963,2024-10-07,2024-10-07 21:00,PowerBall Payment (TGYC22946780),|TGYC22946780,Entertainment,Betting/Lottery,,-7.50,,1240.18
+22,1927752963,2024-10-07,2024-10-07 21:00,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1238.68
+23,1927752963,2024-10-07,2024-10-07 21:01,PowerBall Payment (CRAP57582646),|CRAP57582646,Entertainment,Betting/Lottery,,-5.00,,1233.68
+24,1927752963,2024-10-07,2024-10-07 21:01,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1232.18
+25,1927752963,2024-10-07,2024-10-07 21:01,Lotto Payment (QGVD22248523),|QGVD22248523,Entertainment,Betting/Lottery,,-5.00,,1227.18
+26,1927752963,2024-10-07,2024-10-07 21:01,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,1225.68
+27,1927752963,2024-10-07,2024-10-07 22:51,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1224.98
+28,1927752963,2024-10-08,2024-10-08 22:30,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1224.28
+29,1927752963,2024-10-09,2024-10-05 11:36,Checkers Durbanville (Card 4449),Checkers Durbanville   DURBANVILLE    ZA,Food,Groceries,,-54.98,,1169.30
+30,1927752963,2024-10-09,2024-10-07 10:20,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-85.00,,1084.30
+31,1927752963,2024-10-09,2024-10-09 22:12,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1083.95
+32,1927752963,2024-10-10,2024-10-07 22:02,Bossa Stellenbosch (Card 4449),BOSSA STELLENBOSCH     STELLENBOSCH   ZA,Food,Restaurants,,-80.00,,1003.95
+33,1927752963,2024-10-10,2024-10-07 15:17,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-39.00,,964.95
+34,1927752963,2024-10-10,2024-10-08 12:40,Online Purchase: Takealot Cape Town (Card 4449),Takealo*t Absa 2       CAPE TOWN    WCZA,Personal & Family,Online Store,,-232.00,,732.95
+35,1927752963,2024-10-11,2024-10-11 22:13,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,732.60
+36,1927752963,2024-10-12,2024-10-09 17:27,Checkers Durbanville (Card 4449),Checkers Durbanville   DURBANVILLE    ZA,Food,Groceries,,-456.13,,276.47
+37,1927752963,2024-10-12,2024-10-12 22:14,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,276.12
+38,1927752963,2024-10-13,2024-10-13 10:25,Payment Received: N Godden,N GODDEN,Other Income,Other Income,950.00,,,1226.12
+39,1927752963,2024-10-13,2024-10-13 22:10,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,1225.07
+40,1927752963,2024-10-14,2024-10-11 13:57,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-100.00,,1125.07
+41,1927752963,2024-10-14,2024-10-11 11:55,Servest Riebeeck Squar Cape Town (Card 4449),SERVEST RIEBEECK SQUAR CAPE TOWN      ZA,Transport,Parking,,-10.00,,1115.07
+42,1927752963,2024-10-14,2024-10-12 12:26,Kwikspar Durbanville (Card 4449),KwiKSpar Vierlanden Mi Durbanville    ZA,Food,Groceries,,-49.99,,1065.08
+43,1927752963,2024-10-15,2024-10-13 12:12,Shell Durbanville (Card 4449),SHELL VILLAGE S STATIO Durbanville    ZA,Transport,Fuel,,-554.75,,510.33
+44,1927752963,2024-10-15,2024-10-13 11:47,Tabbs *good Thyme Caf Cape Town (Card 4449),TABBS  *Good Thyme Caf Cape Town    WCZA,Food,Restaurants,,-110.00,,400.33
+45,1927752963,2024-10-15,2024-10-13 10:54,Good Thyme Caf Cape Town (Card 4449),Yoco   *Good Thyme Caf Cape Town    WCZA,Food,Restaurants,,-20.00,,380.33
+46,1927752963,2024-10-18,2024-10-18 22:45,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,379.98
+47,1927752963,2024-10-20,2024-10-18 13:37,Ik *tamaties Stellenbosch (Card 4449),iK *TaMaties           STELLENBOSCH WCZA,Food,Groceries,,-33.00,,346.98
+48,1927752963,2024-10-21,2024-10-20 23:38,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-53.00,,293.98
+49,1927752963,2024-10-21,2024-10-20 23:38,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,293.48
+50,1927752963,2024-10-21,2024-10-21 22:42,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,293.13
+51,1927752963,2024-10-22,2024-10-22 22:38,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,292.43
+52,1927752963,2024-10-23,2024-10-21 10:15,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-24.00,,268.43
+53,1927752963,2024-10-23,2024-10-24 00:32,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,267.73
+54,1927752963,2024-10-24,2024-10-22 11:02,Ik *tamaties Stellenbosch (Card 4449),iK *TaMaties           STELLENBOSCH WCZA,Food,Groceries,,-55.00,,212.73
+55,1927752963,2024-10-25,2024-10-23 11:13,Kauai Western Cape (Card 4449),KAUAI NEELSIE          Western Cape ZAZA,Food,Takeaways,,-40.00,,172.73
+56,1927752963,2024-10-25,2024-10-22 16:40,Moody Blue Stellenbosch (Card 4449),MOODY BLUE             STELLENBOSCH   ZA,Food,Restaurants,,-52.90,,119.83
+57,1927752963,2024-10-25,2024-10-23 15:42,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-52.00,,67.83
+58,1927752963,2024-10-26,2024-10-26 08:20,Lotto Payment (OAFW96632569),|OAFW96632569,Entertainment,Betting/Lottery,,-5.00,,62.83
+59,1927752963,2024-10-26,2024-10-26 08:20,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,61.33
+60,1927752963,2024-10-26,2024-10-26 08:21,Lotto Payment (AFEI85664557),|AFEI85664557,Entertainment,Betting/Lottery,,-7.50,,53.83
+61,1927752963,2024-10-26,2024-10-26 08:21,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,52.33
+62,1927752963,2024-10-26,2024-10-26 08:21,Lotto Payment (POIL82697566),|POIL82697566,Entertainment,Betting/Lottery,,-10.00,,42.33
+63,1927752963,2024-10-26,2024-10-26 08:21,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,40.83
+64,1927752963,2024-10-27,2024-10-27 09:48,Lotto Payment (XSWB50899308),|XSWB50899308,Entertainment,Betting/Lottery,,-5.00,,35.83
+65,1927752963,2024-10-27,2024-10-27 09:48,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,34.33
+66,1927752963,2024-10-28,2024-10-28 06:20,Payment Received: N Godden,N GODDEN,Other Income,Other Income,900.00,,,934.33
+67,1927752963,2024-10-28,2024-10-28 22:56,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,933.98
+68,1927752963,2024-10-30,2024-10-30 08:43,Payment Received: Shirley Pressley Payment 2063263441,SHIRLEY PRESSLEY              PAYMENT   2063263441,Other Income,Other Income,950.00,,,1883.98
+69,1927752963,2024-10-30,2024-10-30 21:04,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1883.28
+70,1927752963,2024-10-31,2024-10-28 13:40,Kwikspar Stellenbosch (Card 4449),KwikSpar Neelsie       STELLENBOSCH   ZA,Food,Groceries,,-13.99,,1869.29
+71,1927752963,2024-10-31,2024-10-31 13:55,Payment Received: K Sanders,K SANDERS,Other Income,Other Income,50.00,,,1919.29
+72,1927752963,2024-10-31,2024-10-31 17:57,Payment Received: Josie - Notes Payment 2069774555,JOSIE - NOTES                 PAYMENT   2069774555,Other Income,Other Income,50.00,,,1969.29
+73,1927752963,2024-10-31,2024-10-31 17:57,Payment Received: Comp Sci Notes - John Transfer 2069959389,Comp Sci Notes - John         TRANSFER  2069959389,Other Income,Other Income,50.00,,,2019.29
+74,1927752963,2024-10-31,2024-10-31 17:57,Payment Received: D.naidoo Notes Transfer 2069964018,D.Naidoo notes                TRANSFER  2069964018,Other Income,Other Income,50.00,,,2069.29
+75,1927752963,2024-10-31,2024-10-31 22:56,Interest Received,Interest Received,Interest,Interest,1.93,,,2071.22
+76,1927752963,2024-10-31,2024-10-31 22:56,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,2069.82
+77,1927752963,2024-10-31,2024-10-31 22:56,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,2062.32
+78,1927752963,2024-11-01,2024-10-30 10:53,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-124.00,,1938.32
+79,1927752963,2024-11-01,2024-11-01 14:29,Payment Received: N Godden,N GODDEN,Other Income,Other Income,250.00,,,2188.32
+80,1927752963,2024-11-01,2024-11-01 15:35,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-74.00,,2114.32
+81,1927752963,2024-11-01,2024-11-01 15:35,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,2113.82
+82,1927752963,2024-11-01,2024-11-01 22:34,SMS Notification Fee: 9 notification(s),SMS Notification Fee: 9 notification(s),Fees,Fees,,,-2.45,2111.37
+83,1927752963,2024-11-02,2024-11-02 13:11,Payment Received: A2 Notes Transfer 2076071665,A2 Notes                      TRANSFER  2076071665,Other Income,Other Income,50.00,,,2161.37
+84,1927752963,2024-11-02,2024-11-02 14:13,Payment Received: V Makubela,V MAKUBELA,Other Income,Other Income,50.00,,,2211.37
+85,1927752963,2024-11-02,2024-11-02 23:23,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,2210.32
+86,1927752963,2024-11-03,2024-11-01 17:06,Online Purchase: Mr D Food Cape Town (Card 4449),MR D FOOD              CAPE TOWN    WCZA,Food,Takeaways,,-261.45,,1948.87
+87,1927752963,2024-11-03,2024-11-01 13:39,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-33.00,,1915.87
+88,1927752963,2024-11-03,2024-11-01 15:35,Engen Stellenbosch (Card 4449),ENGEN STELLENBOSCH     Stellenbosch   ZA,Transport,Fuel,,-500.00,,1415.87
+89,1927752963,2024-11-03,2024-11-01 13:10,Vaperite Stellenbosch Banhoek (Card 4449),Vaperite Stellenbosch  Banhoek        ZA,Entertainment,Going Out,,-210.00,,1205.87
+90,1927752963,2024-11-03,2024-11-01 13:23,Stellenbosch Municipal Stellenbosch (Card 4449),STELLENBOSCH MUNICIPAL Stellenbosch   ZA,Transport,Parking,,-4.00,,1201.87
+91,1927752963,2024-11-03,2024-11-03 21:21,PayShap Payment Received: Cs A2,CS A2,Other Income,Other Income,50.00,,,1251.87
+92,1927752963,2024-11-03,2024-11-03 22:35,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1251.52
+93,1927752963,2024-11-04,2024-11-01 13:19,African Cellular Stell Stellenbosch (Card 4449),AFRICAN CELLULAR STELL STELLENBOSCH   ZA,Communication,Telephone,,-100.00,,1151.52
+94,1927752963,2024-11-04,2024-11-04 08:41,Payment Received: Gta Coaching Payment 2077097932,GTA COACHING                  PAYMENT   2077097932,Other Income,Other Income,750.00,,,1901.52
+95,1927752963,2024-11-04,2024-11-04 08:41,Payment Received: Sj Compsci Memos Payment 2077125396,SJ COMPSCI MEMOS              PAYMENT   2077125396,Other Income,Other Income,50.00,,,1951.52
+96,1927752963,2024-11-04,2024-11-04 18:44,Payment Received: Delano - Notes Transfer 2078265027,DELANO - NOTES                TRANSFER  2078265027,Other Income,Other Income,50.00,,,2001.52
+97,1927752963,2024-11-04,2024-11-04 22:45,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,2000.47
+98,1927752963,2024-11-06,2024-11-02 17:12,Checkers Durbanville (Card 4449),Checkers Durbanville   DURBANVILLE    ZA,Food,Groceries,,-299.32,,1701.15
+99,1927752963,2024-11-07,2024-11-07 14:39,Payment Received: Investecpbcompsci Memos Transfer 2083712103,INVESTECPBCompSci Memos       TRANSFER  2083712103,Other Income,Other Income,50.00,,,1751.15
+100,1927752963,2024-11-07,2024-11-07 22:57,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1750.45
+101,1927752963,2024-11-08,2024-11-08 18:20,Lotto Payment (HJEJ26966863),|HJEJ26966863,Entertainment,Betting/Lottery,,-5.00,,1745.45
+102,1927752963,2024-11-08,2024-11-08 18:20,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,1743.95
+103,1927752963,2024-11-08,2024-11-08 18:20,Lotto Payment (SDPH91817545),|SDPH91817545,Entertainment,Betting/Lottery,,-7.50,,1736.45
+104,1927752963,2024-11-08,2024-11-08 18:20,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-1.50,1734.95
+105,1927752963,2024-11-08,2024-11-08 18:20,PowerBall Payment (DGSQ73211493),|DGSQ73211493,Entertainment,Betting/Lottery,,-5.00,,1729.95
+106,1927752963,2024-11-08,2024-11-08 18:20,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1728.45
+107,1927752963,2024-11-08,2024-11-08 18:20,PowerBall Payment (TAXI08560858),|TAXI08560858,Entertainment,Betting/Lottery,,-7.50,,1720.95
+108,1927752963,2024-11-08,2024-11-08 18:20,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1719.45
+109,1927752963,2024-11-08,2024-11-08 18:20,Daily Lotto Payment (ETUW81225226),|ETUW81225226,Entertainment,Betting/Lottery,,-3.00,,1716.45
+110,1927752963,2024-11-08,2024-11-08 18:20,Daily Lotto Payment Fee,Daily Lotto Payment Fee,Fees,Fees,,,-1.50,1714.95
+111,1927752963,2024-11-09,2024-11-07 15:58,Shell Durbanville (Card 4449),SHELL VILLAGE S STATIO Durbanville    ZA,Transport,Fuel,,-348.30,,1366.65
+112,1927752963,2024-11-10,2024-11-10 05:27,Lotto Winnings (HJEJ26966863),|HJEJ26966863|Lotto,Entertainment,Betting/Lottery,20.00,,,1386.65
+113,1927752963,2024-11-10,2024-11-10 23:04,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1386.30
+114,1927752963,2024-11-11,2024-11-11 08:35,Payment Received: Investecpbcs244notes Transfer 2086335211,INVESTECPBCS244notes          TRANSFER  2086335211,Other Income,Other Income,50.00,,,1436.30
+115,1927752963,2024-11-11,2024-11-11 22:55,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1435.95
+116,1927752963,2024-11-12,2024-11-12 08:34,Payment Received: Absa Bank Master Maths Transfer 2086974694,ABSA BANK Master Maths        TRANSFER  2086974694,Other Income,Other Income,1220.00,,,2655.95
+117,1927752963,2024-11-12,2024-11-12 22:57,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2655.60
+118,1927752963,2024-11-13,2024-11-10 18:19,Die Neelsie Spar Pos Stellenbosch (Card 4449),DIE NEELSIE SPAR POS   STELLENBOSCH   ZA,Food,Groceries,,-60.00,,2595.60
+119,1927752963,2024-11-13,2024-11-13 22:53,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2595.25
+120,1927752963,2024-11-14,2024-11-14 08:35,Payment Received: Michaela - Cs Notes Payment 2089091721,MICHAELA - CS NOTES           PAYMENT   2089091721,Other Income,Other Income,50.00,,,2645.25
+121,1927752963,2024-11-14,2024-11-14 09:52,Payment Received: L Laubscher,L LAUBSCHER,Other Income,Other Income,50.00,,,2695.25
+122,1927752963,2024-11-14,2024-11-14 20:42,PayShap Payment Received: Shriyan N-cs Notes,Shriyan N-CS Notes,Other Income,Other Income,50.00,,,2745.25
+123,1927752963,2024-11-14,2024-11-14 22:58,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,2744.20
+124,1927752963,2024-11-15,2024-11-13 20:42,Online Purchase: Mr D Food Cape Town (Card 4449),MR D FOOD              CAPE TOWN    WCZA,Food,Takeaways,,-323.40,,2420.80
+125,1927752963,2024-11-15,2024-11-15 14:32,Payment Received: L De Beer,L DE BEER,Other Income,Other Income,50.00,,,2470.80
+126,1927752963,2024-11-15,2024-11-15 15:57,Payment Received: Rtc 05fvln2zvm Joel,RTC 05FVLN2ZVM Joel,Other Income,Other Income,50.00,,,2520.80
+127,1927752963,2024-11-15,2024-11-15 22:55,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,2519.75
+128,1927752963,2024-11-17,2024-11-15 18:11,Kwikspar Durbanville (Card 4449),KwiKSpar Vierlanden Mi Durbanville    ZA,Food,Groceries,,-75.99,,2443.76
+129,1927752963,2024-11-18,2024-11-18 19:59,Payment Received: Rtc 05vx16dbwm Cs244memos_katja,RTC 05VX16DBWM CS244Memos_Katja,Other Income,Other Income,50.00,,,2493.76
+130,1927752963,2024-11-18,2024-11-18 22:57,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,2493.06
+131,1927752963,2024-11-19,2024-11-19 12:02,Payment Received: J Wiese,J WIESE,Other Income,Other Income,50.00,,,2543.06
+132,1927752963,2024-11-19,2024-11-19 12:32,Payment Received: Notes - May Transfer 2095087133,notes - may                   TRANSFER  2095087133,Other Income,Other Income,50.00,,,2593.06
+133,1927752963,2024-11-19,2024-11-19 23:00,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,2592.36
+134,1927752963,2024-11-20,2024-11-20 22:59,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2592.01
+135,1927752963,2024-11-21,2024-11-18 21:36,Moody Blue Stellenbosch (Card 4449),MOODY BLUE             STELLENBOSCH   ZA,Food,Restaurants,,-39.80,,2552.21
+136,1927752963,2024-11-23,2024-11-20 16:48,Moody Blue Stellenbosch (Card 4449),MOODY BLUE             STELLENBOSCH   ZA,Food,Restaurants,,-52.90,,2499.31
+137,1927752963,2024-11-23,2024-11-23 23:07,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2498.96
+138,1927752963,2024-11-24,2024-11-24 19:58,Banking App External Payment: Cc Viviers,CC VIVIERS,Uncategorised,Uncategorised,,-660.00,,1838.96
+139,1927752963,2024-11-24,2024-11-24 19:58,External Payment Fee,External Payment Fee,Fees,Fees,,,-2.00,1836.96
+140,1927752963,2024-11-24,2024-11-24 23:29,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1836.61
+141,1927752963,2024-11-25,2024-11-23 14:13,Woolworths Bellville (Card 4449),WOOLWORTHS             BELLVILLE    WCZA,Personal & Family,Clothing & Shoes,,-499.50,,1337.11
+142,1927752963,2024-11-25,2024-11-25 18:48,PowerBall Payment (TJAU26266319),|TJAU26266319,Entertainment,Betting/Lottery,,-5.00,,1332.11
+143,1927752963,2024-11-25,2024-11-25 18:48,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,1330.61
+144,1927752963,2024-11-26,2024-11-26 23:00,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1329.91
+145,1927752963,2024-11-27,2024-11-27 18:24,Payment Received: N Godden,N GODDEN,Other Income,Other Income,1510.00,,,2839.91
+146,1927752963,2024-11-27,2024-11-27 22:58,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,2839.56
+147,1927752963,2024-11-28,2024-11-28 17:55,Banking App External Payment: Cc Viviers,CC VIVIERS,Uncategorised,Uncategorised,,-890.00,,1949.56
+148,1927752963,2024-11-28,2024-11-28 17:55,External Payment Fee,External Payment Fee,Fees,Fees,,,-2.00,1947.56
+149,1927752963,2024-11-28,2024-11-28 22:47,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1947.21
+150,1927752963,2024-11-29,2024-11-26 16:20,Checkers Durbanville (Card 4449),Checkers Durbanville   DURBANVILLE    ZA,Food,Groceries,,-657.99,,1289.22
+151,1927752963,2024-11-29,2024-11-26 16:23,Still Smoking Durbanvi Durbanville (Card 4449),STILL SMOKING DURBANVI DURBANVILLE    ZA,Entertainment,Going Out,,-179.80,,1109.42
+152,1927752963,2024-11-30,2024-11-30 11:22,Banking App External Immediate Payment: Lisa La Heuvel,LISA LA HEUVEL,Personal & Family,Digital Payments,,-180.00,,929.42
+153,1927752963,2024-11-30,2024-11-30 11:22,External Immediate Payment Fee,External Immediate Payment Fee,Fees,Fees,,,-6.50,922.92
+154,1927752963,2024-11-30,2024-11-30 13:35,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-74.00,,848.92
+155,1927752963,2024-11-30,2024-11-30 13:35,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,848.42
+156,1927752963,2024-11-30,2024-11-30 23:52,Interest Received,Interest Received,Interest,Interest,4.47,,,852.89
+157,1927752963,2024-11-30,2024-11-30 23:52,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,852.19
+158,1927752963,2024-11-30,2024-11-30 23:52,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,844.69
+159,1927752963,2024-12-01,2024-12-01 22:59,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,843.64
+160,1927752963,2024-12-02,2024-12-02 13:19,Payment Received: N Godden,N GODDEN,Other Income,Other Income,1300.00,,,2143.64
+161,1927752963,2024-12-02,2024-12-02 16:24,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-50.00,,2093.64
+162,1927752963,2024-12-02,2024-12-02 16:24,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,2093.14
+163,1927752963,2024-12-02,2024-12-02 23:03,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,2091.74
+164,1927752963,2024-12-03,2024-12-01 13:37,Clicks Durbanville (Card 4449),CLICKS DURBANVILLE     Durbanville    ZA,Medical,Pharmacy,,-211.89,,1879.85
+165,1927752963,2024-12-03,2024-12-01 13:01,Dis-Chem Cape Town (Card 4449),Dischem Durbanville    CAPE TOWN    WCZA,Medical,Pharmacy,,-130.78,,1749.07
+166,1927752963,2024-12-03,2024-12-01 13:20,Dis-Chem Durbanville (Card 4449),Dis-Chem Village Squar DURBANVILLE  WCZA,Medical,Pharmacy,,-311.35,,1437.72
+167,1927752963,2024-12-03,2024-12-03 14:42,Payment Received: Gta Coaching Payment 2135958415,GTA COACHING                  PAYMENT   2135958415,Other Income,Other Income,1050.00,,,2487.72
+168,1927752963,2024-12-03,2024-12-03 23:02,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,2486.67
+169,1927752963,2024-12-04,2024-12-02 16:28,Shell Durbanville (Card 4449),SHELL VILLAGE S STATIO Durbanville    ZA,Transport,Fuel,,-200.00,,2286.67
+170,1927752963,2024-12-04,2024-12-02 16:17,Twt Durbanville Durbanville (Card 4449),TWT DURBANVILLE        DURBANVILLE  WCZA,Transport,Vehicle Maintenance,,-643.60,,1643.07
+171,1927752963,2024-12-04,2024-12-04 22:52,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1642.72
+172,1927752963,2024-12-05,2024-12-03 18:33,Spar Durbanville (Card 4449),Spar Palm Grove        DURBANVILLE  WCZA,Food,Groceries,,-233.77,,1408.95
+173,1927752963,2024-12-05,2024-12-06 00:11,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1408.25
+174,1927752963,2024-12-06,2024-12-03 18:17,LiquorShop Durbanville (Card 4449),LiquorShop Durbanville DURBANVILLE    ZA,Entertainment,Alcohol,,-279.99,,1128.26
+175,1927752963,2024-12-06,2024-12-04 16:26,Woolworths Durbanville (Card 4449),WOOLWORTHS             DURBANVILLE  WCZA,Personal & Family,Clothing & Shoes,,-382.96,,745.30
+176,1927752963,2024-12-07,2024-12-04 16:30,Village Square Shoppin Durbanville (Card 4449),Village Square Shoppin DURBANVILLE    ZA,Transport,Parking,,-8.00,,737.30
+177,1927752963,2024-12-07,2024-12-05 14:37,Spar Worcester (Card 4449),Spar Express Worcest N WORCESTER    WCZA,Food,Groceries,,-90.60,,646.70
+178,1927752963,2024-12-07,2024-12-05 18:49,Simply Asia George (Card 4449),SIMPLY ASIA GEORGE     GEORGE       WCZA,Food,Takeaways,,-178.00,,468.70
+179,1927752963,2024-12-09,2024-12-09 22:52,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,468.35
+180,1927752963,2024-12-10,2024-12-08 12:46,Dis-Chem Jeffreys Bay (Card 4449),Dischem Fountains Jeff JEFFREYS BAY ECZA,Medical,Pharmacy,,-26.99,,441.36
+181,1927752963,2024-12-10,2024-12-10 11:02,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-53.00,,388.36
+182,1927752963,2024-12-10,2024-12-10 11:02,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,387.86
+183,1927752963,2024-12-10,2024-12-10 22:51,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,387.51
+184,1927752963,2024-12-11,2024-12-09 17:48,Pick n Pay Clothing Fountain (Card 4449),PnP Clt Fountains Mall FOUNTAIN     ECZA,Personal & Family,Clothing & Shoes,,-257.48,,130.03
+185,1927752963,2024-12-15,2024-12-15 23:54,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,129.68
+186,1927752963,2024-12-17,2024-12-17 20:33,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-30.00,,99.68
+187,1927752963,2024-12-17,2024-12-17 20:33,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,99.18
+188,1927752963,2024-12-17,2024-12-17 23:37,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,98.83
+189,1927752963,2024-12-19,2024-12-15 15:09,Checkers Jeffreys Bay (Card 4449),Checkers Jeffreys Bay  JEFFREYS BAY   ZA,Food,Groceries,,-53.98,,44.85
+190,1927752963,2024-12-26,2024-12-26 10:46,Payment Received: N Godden,N GODDEN,Other Income,Other Income,370.00,,,414.85
+191,1927752963,2024-12-26,2024-12-26 15:53,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-74.00,,340.85
+192,1927752963,2024-12-26,2024-12-26 15:53,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,340.35
+193,1927752963,2024-12-26,2024-12-26 23:21,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,339.65
+194,1927752963,2024-12-27,2024-12-27 08:46,Payment Received: Shirley Pressley Payment 2176359256,SHIRLEY PRESSLEY              PAYMENT   2176359256,Other Income,Other Income,700.00,,,1039.65
+195,1927752963,2024-12-27,2024-12-27 23:20,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1039.30
+196,1927752963,2024-12-28,2024-12-28 23:24,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,1038.25
+197,1927752963,2024-12-30,2024-12-28 19:54,Ster Kinekor Port Elizabet (Card 4449),STER KINEKOR BAY 42805 Port Elizabet  ZA,Entertainment,Movies,,-682.80,,355.45
+198,1927752963,2024-12-30,2024-12-28 18:20,Algoagrandprixindoo Portelizabet (Card 4449),ALGOAGRANDPRIXINDOO    PORTELIZABET ZAZA,Personal & Family,Digital Payments,,-120.00,,235.45
+199,1927752963,2024-12-30,2024-12-28 14:05,Dis-Chem Jeffreys Bay (Card 4449),Dischem Fountains Jeff JEFFREYS BAY ECZA,Medical,Pharmacy,,-115.97,,119.48
+200,1927752963,2024-12-31,2024-12-31 23:50,Interest Received,Interest Received,Interest,Interest,1.09,,,120.57
+201,1927752963,2024-12-31,2024-12-31 23:50,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,113.07
+202,1927752963,2025-01-04,2024-12-28 17:13,The Co Op Cbf Kiosk Humansdorp (Card 4449),THE CO OP CBF KIOSK    HUMANSDORP     ZA,Food,Groceries,,-7.00,,106.07
+203,1927752963,2025-01-04,2025-01-04 23:25,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,105.72
+204,1927752963,2025-01-07,2025-01-05 14:18,Superspar Jeffreys Bay (Card 4449),SuperSpar Jeffreys Bay Jeffreys Bay   ZA,Food,Groceries,,-28.99,,76.73
+205,1927752963,2025-01-07,2025-01-04 21:44,Die Walskipper Jeffreys Bay (Card 4449),DIE WALSKIPPER         JEFFREYS BAY ECZA,Food,Restaurants,,-40.00,,36.73
+206,1927752963,2025-01-07,2025-01-07 12:35,Payment Received: N Godden,N GODDEN,Other Income,Other Income,1500.00,,,1536.73
+207,1927752963,2025-01-07,2025-01-07 23:19,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1536.03
+208,1927752963,2025-01-10,2025-01-07 22:29,Astron Energies Muizenberg (Card 4449),AE JEFFEREYS BAY CSTOR MUIZENBERG     ZA,Food,Groceries,,-193.94,,1342.09
+209,1927752963,2025-01-10,2025-01-07 17:39,Die Walskipper Jeffreys Bay (Card 4449),DIE WALSKIPPER         JEFFREYS BAY ECZA,Food,Restaurants,,-25.00,,1317.09
+210,1927752963,2025-01-10,2025-01-10 08:35,Payment Received: Absa Bank Walskipper Tips Transfer 2198007542,ABSA BANK Walskipper tips     TRANSFER  2198007542,Other Income,Other Income,30148.25,,,31465.34
+211,1927752963,2025-01-10,2025-01-10 19:05,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-74.00,,31391.34
+212,1927752963,2025-01-10,2025-01-10 19:05,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,31390.84
+213,1927752963,2025-01-10,2025-01-10 23:14,SMS Notification Fee: 7 notification(s),SMS Notification Fee: 7 notification(s),Fees,Fees,,,-1.75,31389.09
+214,1927752963,2025-01-11,2025-01-11 19:17,PowerBall Payment (TVGG41247030),|TVGG41247030,Entertainment,Betting/Lottery,,-7.50,,31381.59
+215,1927752963,2025-01-11,2025-01-11 19:17,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,31380.09
+216,1927752963,2025-01-11,2025-01-11 19:18,PowerBall Payment (MWMP19423659),|MWMP19423659,Entertainment,Betting/Lottery,,-5.00,,31375.09
+217,1927752963,2025-01-11,2025-01-11 19:18,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,31373.59
+218,1927752963,2025-01-11,2025-01-11 19:19,PowerBall Payment (XURG70517709),|XURG70517709,Entertainment,Betting/Lottery,,-25.00,,31348.59
+219,1927752963,2025-01-11,2025-01-11 19:19,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,31347.09
+220,1927752963,2025-01-11,2025-01-11 19:20,PowerBall Payment (BGCM01783959),|BGCM01783959,Entertainment,Betting/Lottery,,-37.50,,31309.59
+221,1927752963,2025-01-11,2025-01-11 19:20,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-1.50,31308.09
+222,1927752963,2025-01-11,2025-01-11 23:19,SMS Notification Fee: 8 notification(s),SMS Notification Fee: 8 notification(s),Fees,Fees,,,-2.10,31305.99
+223,1927752963,2025-01-12,2025-01-10 17:55,Pilipilikabeljauwsre Jeffreysbay (Card 4449),PILIPILIKABELJAUWSRE   JEFFREYSBAY  ZAZA,Food,Restaurants,,-60.00,,31245.99
+224,1927752963,2025-01-12,2025-01-10 14:19,In-food Bakery & Del Jeffreys Bay (Card 4449),IN-FOOD BAKERY  &  DEL Jeffreys Bay   ZA,Food,Restaurants,,-550.00,,30695.99
+225,1927752963,2025-01-12,2025-01-10 14:31,In-food Bakery & Del Jeffreys Bay (Card 4449),IN-FOOD BAKERY  &  DEL Jeffreys Bay   ZA,Food,Restaurants,,-79.00,,30616.99
+226,1927752963,2025-01-13,2025-01-11 14:11,Billabong Jefferys Bay (Card 4449),BILLABONG OUTLET JEFF  JEFFERYS BAY ZAZA,Personal & Family,Clothing & Shoes,,-299.95,,30317.04
+227,1927752963,2025-01-13,2025-01-11 15:11,Woolworths Jeffreys Bay (Card 4449),WOOLWORTHS             JEFFREYS BAY WCZA,Personal & Family,Clothing & Shoes,,-488.37,,29828.67
+228,1927752963,2025-01-13,2025-01-11 15:31,Foschini Jeffreys Bay (Card 4449),Foschini Fountains     Jeffreys Bay   ZA,Personal & Family,Clothing & Shoes,,-199.00,,29629.67
+229,1927752963,2025-01-13,2025-01-11 15:34,Foschini Jeffreys Bay (Card 4449),Foschini Fountains     Jeffreys Bay   ZA,Personal & Family,Clothing & Shoes,,-149.00,,29480.67
+230,1927752963,2025-01-13,2025-01-11 14:18,Coffee Society Cafe Jeffreys Bay (Card 4449),COFFEE SOCIETY CAFE    Jeffreys Bay   ZA,Food,Restaurants,,-45.00,,29435.67
+231,1927752963,2025-01-13,2025-01-13 23:14,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,29434.62
+232,1927752963,2025-01-15,2025-01-13 14:57,Superspar Jeffreys Bay (Card 4449),SuperSpar Jeffreys Bay Jeffreys Bay   ZA,Food,Groceries,,-171.98,,29262.64
+233,1927752963,2025-01-15,2025-01-15 05:25,PowerBall Winnings (BGCM01783959),|BGCM01783959|Lotto,Entertainment,Betting/Lottery,7.50,,,29270.14
+234,1927752963,2025-01-15,2025-01-15 23:14,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,29269.79
+235,1927752963,2025-01-16,2025-01-13 17:48,Aston Manor Supermarke Jeffreys Bay (Card 4449),ASTON MANOR SUPERMARKE JEFFREYS BAY   ZA,Food,Groceries,,-70.00,,29199.79
+236,1927752963,2025-01-16,2025-01-13 13:39,Online Purchase: Takealot Cape Town (Card 4449),Takealot               CAPE TOWN      ZA,Personal & Family,Online Store,,-877.00,,28322.79
+237,1927752963,2025-01-16,2025-01-16 23:13,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,28322.44
+238,1927752963,2025-01-17,2025-01-15 20:55,Pilipilikabeljauwsre Jeffreysbay (Card 4449),PILIPILIKABELJAUWSRE   JEFFREYSBAY  ZAZA,Food,Restaurants,,-465.00,,27857.44
+239,1927752963,2025-01-17,2025-01-17 16:48,Banking App External Payment: Cc Viviers,CC VIVIERS,Uncategorised,Uncategorised,,-1800.00,,26057.44
+240,1927752963,2025-01-17,2025-01-17 16:48,External Payment Fee,External Payment Fee,Fees,Fees,,,-2.00,26055.44
+241,1927752963,2025-01-17,2025-01-17 23:13,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,26054.74
+242,1927752963,2025-01-18,2025-01-18 23:20,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,26054.04
+243,1927752963,2025-01-19,2025-01-17 16:57,Havannah Jeffreys Bay (Card 4449),HAVANNAH               Jeffreys Bay   ZA,Entertainment,Alcohol,,-62.00,,25992.04
+244,1927752963,2025-01-19,2025-01-16 21:38,Astron Energies Muizenberg (Card 4449),AE JEFFEREYS BAY CSTOR MUIZENBERG     ZA,Food,Groceries,,-69.98,,25922.06
+245,1927752963,2025-01-20,2025-01-18 10:20,Fego Expressmark Plettenbergba (Card 4449),FEGO EXPRESSMARK       PLETTENBERGBAAWZA,Food,Takeaways,,-58.00,,25864.06
+246,1927752963,2025-01-20,2025-01-20 23:09,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,25863.71
+247,1927752963,2025-01-22,2025-01-18 15:57,Vida e Caffe Robertsoncabl (Card 4449),VIDA E CAFFE SHELL TOR ROBERTSONCABL  ZA,Food,Takeaways,,-30.00,,25833.71
+248,1927752963,2025-01-22,2025-01-22 11:50,Banking App Immediate Payment: D Nell,D NELL,Personal & Family,Digital Payments,,-6000.00,,19833.71
+249,1927752963,2025-01-22,2025-01-22 11:50,Immediate Payment Fee,Immediate Payment Fee,Fees,Fees,,,-1.00,19832.71
+250,1927752963,2025-01-22,2025-01-22 23:28,SMS Notification Fee: 14 notification(s),SMS Notification Fee: 14 notification(s),Fees,Fees,,,-3.50,19829.21
+251,1927752963,2025-01-23,2025-01-20 10:45,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-376.00,,19453.21
+252,1927752963,2025-01-23,2025-01-23 18:54,Banking App Immediate Payment: Jaiden Savings,JAIDEN SAVINGS,Savings & Investments,Savings,,-5000.00,,14453.21
+253,1927752963,2025-01-23,2025-01-23 18:54,Immediate Payment Fee,Immediate Payment Fee,Fees,Fees,,,-1.00,14452.21
+254,1927752963,2025-01-23,2025-01-23 18:55,Banking App External Payment: Alastair Godden,ALASTAIR GODDEN,Uncategorised,Uncategorised,,-690.00,,13762.21
+255,1927752963,2025-01-23,2025-01-23 18:55,External Payment Fee,External Payment Fee,Fees,Fees,,,-2.00,13760.21
+256,1927752963,2025-01-23,2025-01-23 19:00,Banking App Transfer to Monthly Savings: Transfer Savings For The Year,Transfer Savings for the year,Transfer,Transfer,,-11370.00,,2390.21
+257,1927752963,2025-01-23,2025-01-23 23:14,SMS Notification Fee: 8 notification(s),SMS Notification Fee: 8 notification(s),Fees,Fees,,,-2.10,2388.11
+258,1927752963,2025-01-24,2025-01-22 10:58,Merriman Bp Service St Stellenbosch (Card 4449),MERRIMAN BP SERVICE ST STELLENBOSCH ZAZA,Transport,Fuel,,-765.96,,1622.15
+259,1927752963,2025-01-24,2025-01-22 17:43,Kunafa House M Cape Town (Card 4449),Yoco   *Kunafa House M Cape Town    WCZA,Food,Groceries,,-55.00,,1567.15
+260,1927752963,2025-01-24,2025-01-22 16:50,Dantoclox Pty Cape Town (Card 4449),Yoco   *Dantoclox pty  Cape Town    WCZA,Food,Groceries,,-218.90,,1348.25
+261,1927752963,2025-01-24,2025-01-22 16:05,Time Out Marke Cape Town (Card 4449),Yoco   *Time Out Marke Cape Town    WCZA,Food,Restaurants,,-35.00,,1313.25
+262,1927752963,2025-01-24,2025-01-22 12:41,Love Revenge C Cape Town (Card 4449),Yoco   *Love Revenge C Cape Town    WCZA,Personal & Family,Children & Dependants,,-60.00,,1253.25
+263,1927752963,2025-01-24,2025-01-24 15:44,Payment Received: N Godden,N GODDEN,Other Income,Other Income,800.00,,,2053.25
+264,1927752963,2025-01-24,2025-01-24 23:13,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,2052.55
+265,1927752963,2025-01-25,2025-01-22 17:48,Gelato Mania Mojo Mark Cape Town Cbd (Card 4449),GELATO MANIA MOJO MARK CAPE TOWN CBD  ZA,Food,Restaurants,,-96.90,,1955.65
+266,1927752963,2025-01-25,2025-01-22 16:45,Tortilla Modern Mex Cape Town (Card 4449),TORTILLA  MODERN  MEX  CAPE TOWN      ZA,Food,Restaurants,,-150.00,,1805.65
+267,1927752963,2025-01-25,2025-01-22 16:54,Vida e Caffe Cape Town (Card 4449),VIDA E CAFFE MOJO MARK CAPE TOWN      ZA,Food,Takeaways,,-30.00,,1775.65
+268,1927752963,2025-01-25,2025-01-22 15:04,Two Oceans Waterfront (Card 4449),TWO OCEANS             WATERFRONT     ZA,Entertainment,Activities,,-140.00,,1635.65
+269,1927752963,2025-01-25,2025-01-23 14:49,Dis-Chem Cape Town (Card 4449),Dischem Durbanville    CAPE TOWN    WCZA,Medical,Pharmacy,,-171.94,,1463.71
+270,1927752963,2025-01-26,2025-01-23 15:02,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-57.00,,1406.71
+271,1927752963,2025-01-26,2025-01-24 15:45,Plaits Hair De Durbanville (Card 4449),Yoco   *PLAITS HAIR DE Durbanville  KZZA,Personal & Family,Personal Care,,-800.00,,606.71
+272,1927752963,2025-01-26,2025-01-26 23:11,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,605.66
+273,1927752963,2025-01-28,2025-01-26 10:59,Main Squeeze Cape Town (Card 4449),Yoco   *Main Squeeze   Cape Town    WCZA,Food,Groceries,,-70.00,,535.66
+274,1927752963,2025-01-28,2025-01-26 12:06,Somerset West Cape Town (Card 4449),Yoco   *Somerset West  Cape Town    WCZA,Food,Groceries,,-55.00,,480.66
+275,1927752963,2025-01-28,2025-01-26 11:07,Ik *blue Waters Somerset West (Card 4449),iK *Blue Waters        SOMERSET WESTWCZA,Food,Restaurants,,-160.00,,320.66
+276,1927752963,2025-01-28,2025-01-28 15:00,Payment Received: N Godden,N GODDEN,Other Income,Other Income,265.00,,,585.66
+277,1927752963,2025-01-28,2025-01-28 23:11,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,584.61
+278,1927752963,2025-01-29,2025-01-29 23:10,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,584.26
+279,1927752963,2025-01-30,2025-01-30 23:09,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,583.91
+280,1927752963,2025-01-31,2025-01-28 12:17,Checkers Durbanville (Card 4449),Checkers Durbanville   DURBANVILLE    ZA,Food,Groceries,,-94.98,,488.93
+281,1927752963,2025-01-31,2025-01-28 12:08,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-70.00,,418.93
+282,1927752963,2025-01-31,2025-02-01 00:46,Interest Received,Interest Received,Interest,Interest,36.77,,,455.70
+283,1927752963,2025-01-31,2025-02-01 00:46,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,448.20
+284,1927752963,2025-02-01,2025-01-29 10:47,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-70.00,,378.20
+285,1927752963,2025-02-01,2025-01-30 11:32,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-88.00,,290.20
+286,1927752963,2025-02-02,2025-02-02 23:10,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,288.80
+287,1927752963,2025-02-03,2025-02-03 18:22,Banking App Transfer Received from Monthly Savings: Transfer,Transfer,Transfer,Transfer,400.00,,,688.80
+288,1927752963,2025-02-03,2025-02-03 18:22,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-89.00,,599.80
+289,1927752963,2025-02-03,2025-02-03 18:22,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,599.30
+290,1927752963,2025-02-03,2025-02-03 23:41,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,598.25
+291,1927752963,2025-02-04,2025-02-02 13:33,Peregrine Farm Stall ( Grabouw (Card 4449),PEREGRINE FARM STALL ( Grabouw        ZA,Food,Takeaways,,-93.00,,505.25
+292,1927752963,2025-02-04,2025-02-02 12:47,Vx Houw Hoek Farm Stal Grabouw (Card 4449),VX HOUW HOEK FARM STAL Grabouw        ZA,Food,Groceries,,-44.90,,460.35
+293,1927752963,2025-02-04,2025-02-02 13:16,Peregrine Farm Grabouw (Card 4449),Yoco   *Peregrine Farm Grabouw      WCZA,Food,Groceries,,-49.50,,410.85
+294,1927752963,2025-02-04,2025-02-02 13:14,Peregrine Farm Stall ( Grabouw (Card 4449),PEREGRINE FARM STALL ( Grabouw        ZA,Food,Takeaways,,-45.00,,365.85
+295,1927752963,2025-02-04,2025-02-04 13:29,Banking App Transfer Received from Monthly Savings: Transfer,Transfer,Transfer,Transfer,650.00,,,1015.85
+296,1927752963,2025-02-04,2025-02-04 23:14,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,1014.45
+297,1927752963,2025-02-05,2025-02-04 12:12,Recurring Card Purchase: Google London (Card 4449),Google Goodnotes for   London       GBGB,Personal & Family,Online Store,,-199.99,,814.46
+298,1927752963,2025-02-05,2025-02-05 08:39,International Processing Fee,International Processing Fee,Fees,Fees,,,-3.00,811.46
+299,1927752963,2025-02-06,2025-02-03 15:05,Village Square Shoppin Durbanville (Card 4449),Village Square Shoppin DURBANVILLE    ZA,Transport,Parking,,-8.00,,803.46
+300,1927752963,2025-02-06,2025-02-04 13:30,Online Purchase: Takealot Cape Town (Card 4449),TAKEALO*T              CAPE TOWN    WCZA,Personal & Family,Online Store,,-737.00,,66.46
+301,1927752963,2025-02-08,2025-02-08 15:26,Payment Received: N Godden,N GODDEN,Other Income,Other Income,350.00,,,416.46
+302,1927752963,2025-02-08,2025-02-08 21:40,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,416.11
+303,1927752963,2025-02-09,2025-02-09 09:36,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-50.00,,366.11
+304,1927752963,2025-02-09,2025-02-09 09:36,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,365.61
+305,1927752963,2025-02-09,2025-02-09 23:05,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,365.26
+306,1927752963,2025-02-10,2025-02-08 12:26,Grand Slam Cafe Cape Town (Card 4449),GRAND SLAM CAFE        CAPE TOWN    WCZA,Food,Takeaways,,-28.00,,337.26
+307,1927752963,2025-02-11,2025-02-11 23:03,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,336.91
+308,1927752963,2025-02-12,2025-02-12 23:04,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,335.86
+309,1927752963,2025-02-13,2025-02-11 11:46,Die Neelsie Spar Pos Stellenbosch (Card 4449),DIE NEELSIE SPAR POS   STELLENBOSCH   ZA,Food,Groceries,,-32.90,,302.96
+310,1927752963,2025-02-13,2025-02-13 10:30,Payment Received: N Godden,N GODDEN,Other Income,Other Income,1000.00,,,1302.96
+311,1927752963,2025-02-13,2025-02-13 10:41,Banking App Transfer to Monthly Savings: Transfer,Transfer,Transfer,Transfer,,-600.00,,702.96
+312,1927752963,2025-02-13,2025-02-13 23:13,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,701.56
+313,1927752963,2025-02-14,2025-02-12 17:20,Kwikspar Durbanville (Card 4449),KwiKSpar Vierlanden Mi Durbanville    ZA,Food,Groceries,,-81.99,,619.57
+314,1927752963,2025-02-14,2025-02-12 12:38,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-33.00,,586.57
+315,1927752963,2025-02-14,2025-02-14 15:54,Banking App Transfer to Monthly Savings: Transfer,Transfer,Transfer,Transfer,,-200.00,,386.57
+316,1927752963,2025-02-14,2025-02-14 15:54,Banking App Transfer Received from Monthly Savings: Transfer,Transfer,Transfer,Transfer,400.00,,,786.57
+317,1927752963,2025-02-14,2025-02-14 23:06,SMS Notification Fee: 7 notification(s),SMS Notification Fee: 7 notification(s),Fees,Fees,,,-1.75,784.82
+318,1927752963,2025-02-15,2025-02-12 16:34,Marcels Bellville (Card 4449),MARCELS TYGER VALLEY   BELLVILLE      ZA,Food,Takeaways,,-84.00,,700.82
+319,1927752963,2025-02-15,2025-02-13 16:45,Shell Durbanville (Card 4449),SHELL VILLAGE S STATIO Durbanville    ZA,Transport,Fuel,,-50.00,,650.82
+320,1927752963,2025-02-16,2025-02-14 15:56,Online Purchase: Truth Coffee Cape Town (Card 4449),Yoco   *Truth Coffee   Cape Town    WCZA,Food,Restaurants,,-450.00,,200.82
+321,1927752963,2025-02-17,2025-02-17 23:01,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,200.47
+322,1927752963,2025-02-20,2025-02-17 15:51,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-70.00,,130.47
+323,1927752963,2025-02-23,2025-02-23 23:04,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,130.12
+324,1927752963,2025-02-24,2025-02-24 09:30,Banking App Transfer Received from Monthly Savings: Transfer,Transfer,Transfer,Transfer,100.00,,,230.12
+325,1927752963,2025-02-24,2025-02-24 15:09,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-50.00,,180.12
+326,1927752963,2025-02-24,2025-02-24 15:09,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,179.62
+327,1927752963,2025-02-24,2025-02-24 23:03,SMS Notification Fee: 5 notification(s),SMS Notification Fee: 5 notification(s),Fees,Fees,,,-1.40,178.22
+328,1927752963,2025-02-25,2025-02-25 09:01,Payment Received: N Godden,N GODDEN,Other Income,Other Income,900.00,,,1078.22
+329,1927752963,2025-02-25,2025-02-25 23:35,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,1077.17
+330,1927752963,2025-02-26,2025-02-23 21:02,Panda Stellenbosch (Card 4449),PANDA                  STELLENBOSCH   ZA,Food,Restaurants,,-61.90,,1015.27
+331,1927752963,2025-02-26,2025-02-26 08:47,Payment Received: Supreme Overlord Payment 2278938354,SUPREME OVERLORD              PAYMENT   2278938354,Other Income,Other Income,1000.00,,,2015.27
+332,1927752963,2025-02-26,2025-02-26 23:34,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,2014.57
+333,1927752963,2025-02-27,2025-02-25 17:55,Kwikspar Durbanville (Card 4449),KwiKSpar Vierlanden Mi Durbanville    ZA,Food,Groceries,,-79.98,,1934.59
+334,1927752963,2025-02-27,2025-02-24 09:31,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-62.00,,1872.59
+335,1927752963,2025-02-27,2025-02-25 17:46,Shell Durbanville (Card 4449),SHELL VILLAGE S STATIO Durbanville    ZA,Transport,Fuel,,-812.80,,1059.79
+336,1927752963,2025-02-27,2025-02-27 23:00,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1059.44
+337,1927752963,2025-02-28,2025-02-26 19:25,Spur Durbanville (Card 4449),SPURDURBANVILLE        DURBANVILLE  ZAZA,Food,Restaurants,,-320.00,,739.44
+338,1927752963,2025-02-28,2025-02-26 12:31,Xpresso Cafe Stellenbosch (Card 4449),XPRESSO CAFE           Stellenbosch   ZA,Food,Takeaways,,-14.00,,725.44
+339,1927752963,2025-02-28,2025-03-01 00:46,Interest Received,Interest Received,Interest,Interest,0.83,,,726.27
+340,1927752963,2025-02-28,2025-03-01 00:46,SMS Notification Fee: 4 notification(s),SMS Notification Fee: 4 notification(s),Fees,Fees,,,-1.05,725.22
+341,1927752963,2025-02-28,2025-03-01 00:46,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,717.72
+342,1927752963,2025-03-01,2025-02-27 12:31,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-33.00,,684.72
+343,1927752963,2025-03-01,2025-02-26 12:47,Servest Riebeeck Squar Cape Town (Card 4449),SERVEST RIEBEECK SQUAR CAPE TOWN      ZA,Transport,Parking,,-5.00,,679.72
+344,1927752963,2025-03-01,2025-03-01 19:52,Lotto Payment (PDII52795951),|PDII52795951,Entertainment,Betting/Lottery,,-5.00,,674.72
+345,1927752963,2025-03-01,2025-03-01 19:52,Lotto Payment Fee,Lotto Payment Fee,Fees,Fees,,,-2.00,672.72
+346,1927752963,2025-03-01,2025-03-01 19:52,PowerBall Payment (JWNO20781173),|JWNO20781173,Entertainment,Betting/Lottery,,-5.00,,667.72
+347,1927752963,2025-03-01,2025-03-01 19:52,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-2.00,665.72
+348,1927752963,2025-03-01,2025-03-01 23:38,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,665.37
+349,1927752963,2025-03-02,2025-02-28 13:11,Clicks Durbanville (Card 4449),CLICKS DURBANVILLE     Durbanville    ZA,Medical,Pharmacy,,-99.95,,565.42
+350,1927752963,2025-03-03,2025-02-28 12:44,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-66.00,,499.42
+351,1927752963,2025-03-03,2025-02-28 11:09,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-52.00,,447.42
+352,1927752963,2025-03-03,2025-03-01 17:11,De Clapmuts Trading Stellenbosch (Card 4449),DE CLAPMUTS TRADING    Stellenbosch   ZA,Food,Restaurants,,-38.00,,409.42
+353,1927752963,2025-03-03,2025-03-03 15:01,Payment Received: N Godden,N GODDEN,Other Income,Other Income,320.00,,,729.42
+354,1927752963,2025-03-03,2025-03-03 23:33,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,729.07
+355,1927752963,2025-03-05,2025-03-05 06:19,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-53.00,,676.07
+356,1927752963,2025-03-05,2025-03-05 06:19,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,675.57
+357,1927752963,2025-03-05,2025-03-05 23:27,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,674.87
+358,1927752963,2025-03-07,2025-03-05 14:08,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-74.00,,600.87
+359,1927752963,2025-03-07,2025-03-07 17:49,Payment Received: Absa Bank Master Maths Transfer 2308445032,ABSA BANK Master Maths        TRANSFER  2308445032,Other Income,Other Income,600.00,,,1200.87
+360,1927752963,2025-03-07,2025-03-07 23:26,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.70,1200.17
+361,1927752963,2025-03-08,2025-03-08 22:00,SMS Notification Fee: 0 notification(s),SMS Notification Fee: 0 notification(s),Fees,Fees,,,-0.35,1199.82
+362,1927752963,2025-03-09,2025-03-07 11:07,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-60.00,,1139.82
+363,1927752963,2025-03-10,2025-03-08 16:35,Grand Slam Cafe Cape Town (Card 4449),GRAND SLAM CAFE        CAPE TOWN    WCZA,Food,Takeaways,,-95.00,,1044.82
+364,1927752963,2025-03-11,2025-03-11 15:22,Payment Received: N Godden,N GODDEN,Other Income,Other Income,900.00,,,1944.82
+365,1927752963,2025-03-11,2025-03-11 23:24,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.70,1944.12
+366,1927752963,2025-03-12,2025-03-12 23:24,SMS Notification Fee: 0 notification(s),SMS Notification Fee: 0 notification(s),Fees,Fees,,,-0.35,1943.77
+367,1927752963,2025-03-13,2025-03-11 12:49,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-52.00,,1891.77
+368,1927752963,2025-03-13,2025-03-13 23:26,SMS Notification Fee: 0 notification(s),SMS Notification Fee: 0 notification(s),Fees,Fees,,,-0.35,1891.42
+369,1927752963,2025-03-14,2025-03-12 17:18,Merriman Bp Service St Stellenbosch (Card 4449),MERRIMAN BP SERVICE ST STELLENBOSCH ZAZA,Transport,Fuel,,-852.38,,1039.04
+370,1927752963,2025-03-14,2025-03-14 23:29,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1038.69
+371,1927752963,2025-03-15,2025-03-13 10:13,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-52.00,,986.69
+372,1927752963,2025-03-16,2025-03-14 12:37,The Meeting Pl Stellenbosch (Card 4449),Yoco   *The Meeting Pl Stellenbosch WCZA,Food,Restaurants,,-155.00,,831.69
+373,1927752963,2025-03-16,2025-03-16 12:22,(Pending) Samsung Schwalbach Am (Card 4449),SAMSUNG ELECTRONIC     SCHWALBACH AM  DE|MANUAL,Communication,Cellphone,,-3.00,,
+374,1927752963,2025-03-16,2025-03-16 23:27,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,831.34
+375,1927752963,2025-03-17,2025-03-16 22:55,PowerBall Payment (TQSJ03693666),|TQSJ03693666,Entertainment,Betting/Lottery,,-5.00,,826.34
+376,1927752963,2025-03-17,2025-03-16 22:55,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-2.00,824.34
+377,1927752963,2025-03-17,2025-03-16 22:55,PowerBall Payment (RKVL99641892),|RKVL99641892,Entertainment,Betting/Lottery,,-7.50,,816.84
+378,1927752963,2025-03-17,2025-03-16 22:55,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-2.00,814.84
+379,1927752963,2025-03-17,2025-03-17 23:21,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,814.49
+380,1927752963,2025-03-18,2025-03-16 12:22,Recurring Card Purchase: Samsung Schwalbach (Card 4449),SAMSUNG ELECTRONICS    SCHWALBACH     DE,Communication,Cellphone,,-124.84,,689.65
+381,1927752963,2025-03-18,2025-03-18 01:17,International Processing Fee,International Processing Fee,Fees,Fees,,,-3.00,686.65
+382,1927752963,2025-03-18,2025-03-18 17:47,Payment Received: Lara Calculator Transfer 2318801185,LARA CALCULATOR               TRANSFER  2318801185,Other Income,Other Income,400.00,,,1086.65
+383,1927752963,2025-03-18,2025-03-18 23:25,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1085.95
+384,1927752963,2025-03-19,2025-03-19 23:22,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1085.60
+385,1927752963,2025-03-20,2025-03-17 14:35,Rash Material And Wool Durbanville (Card 4449),RASH MATERIAL AND WOOL DURBANVILLE    ZA,Personal & Family,Sport & Hobbies,,-66.00,,1019.60
+386,1927752963,2025-03-20,2025-03-18 12:04,Ik *tamaties Stellenbosch (Card 4449),iK *TaMaties           STELLENBOSCH WCZA,Food,Groceries,,-66.00,,953.60
+387,1927752963,2025-03-20,2025-03-20 17:49,Payment Received: Absa Bank Cs Notes Transfer 2321451031,ABSA BANK CS Notes            TRANSFER  2321451031,Other Income,Other Income,50.00,,,1003.60
+388,1927752963,2025-03-20,2025-03-20 23:42,SMS Notification Fee: 3 notification(s),SMS Notification Fee: 3 notification(s),Fees,Fees,,,-1.05,1002.55
+389,1927752963,2025-03-22,2025-03-19 14:05,Kwikspar Stellenbosch (Card 4449),KwikSpar Neelsie       STELLENBOSCH   ZA,Food,Groceries,,-60.00,,942.55
+390,1927752963,2025-03-22,2025-03-20 14:10,Jeff'splace Stellenbosch (Card 4449),JEFF'SPLACE            STELLENBOSCH ZAZA,Food,Restaurants,,-48.00,,894.55
+391,1927752963,2025-03-22,2025-03-22 08:11,Payment Received: F Arbuthnot,F ARBUTHNOT,Other Income,Other Income,100.00,,,994.55
+392,1927752963,2025-03-22,2025-03-22 13:20,Payment Received: Rtc 05d2q2trdn John Notes Payment,RTC 05D2Q2TRDN John Notes Payment,Other Income,Other Income,50.00,,,1044.55
+393,1927752963,2025-03-22,2025-03-22 14:20,Payment Received: Rtc 05kjyb1rdn Cs314 Notes-lusanda,RTC 05KJYB1RDN CS314 Notes-Lusanda,Other Income,Other Income,50.00,,,1094.55
+394,1927752963,2025-03-22,2025-03-22 14:29,Payment Received: Rtc 05tx331rdn Duran,RTC 05TX331RDN Duran,Other Income,Other Income,50.00,,,1144.55
+395,1927752963,2025-03-22,2025-03-22 15:37,PayShap Payment Received: Notes Cs 314 Logan,Notes cs 314 logan,Other Income,Other Income,50.00,,,1194.55
+396,1927752963,2025-03-22,2025-03-22 17:20,PayShap Payment Received: Shriyan N-cs Notes,Shriyan N-CS Notes,Other Income,Other Income,50.00,,,1244.55
+397,1927752963,2025-03-22,2025-03-22 17:39,PayShap Payment Received: Notes - Zayaan,Notes - Zayaan,Other Income,Other Income,50.00,,,1294.55
+398,1927752963,2025-03-22,2025-03-22 23:27,SMS Notification Fee: 9 notification(s),SMS Notification Fee: 9 notification(s),Fees,Fees,,,-3.15,1291.40
+399,1927752963,2025-03-23,2025-03-23 12:11,Banking App Prepaid Purchase: Vodacom,Vodacom,Communication,Cellphone,,-53.00,,1238.40
+400,1927752963,2025-03-23,2025-03-23 12:11,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1237.90
+401,1927752963,2025-03-23,2025-03-23 23:33,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1237.55
+402,1927752963,2025-03-24,2025-03-24 08:43,Payment Received: Investecpboliver Lello Notes Transfer 2325059235,INVESTECPBOliver Lello notes  TRANSFER  2325059235,Other Income,Other Income,50.00,,,1287.55
+403,1927752963,2025-03-24,2025-03-24 08:43,Payment Received: Absa Bank Notes Transfer 2325065435,ABSA BANK Notes               TRANSFER  2325065435,Other Income,Other Income,50.00,,,1337.55
+404,1927752963,2025-03-24,2025-03-24 12:43,Payment Received: Cs314 Notes Transfer 2327744323,Cs314 notes                   TRANSFER  2327744323,Other Income,Other Income,50.00,,,1387.55
+405,1927752963,2025-03-24,2025-03-24 23:26,SMS Notification Fee: 3 notification(s),SMS Notification Fee: 3 notification(s),Fees,Fees,,,-1.05,1386.50
+406,1927752963,2025-03-25,2025-03-20 11:00,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-68.00,,1318.50
+407,1927752963,2025-03-25,2025-03-22 11:33,Ikh*gorgeous Goodies Alberton (Card 4449),IKH*Gorgeous Goodies   Alberton     GPZA,Food,Groceries,,-220.00,,1098.50
+408,1927752963,2025-03-25,2025-03-22 11:26,Ikh*gorgeous Goodies Alberton (Card 4449),IKH*Gorgeous Goodies   Alberton     GPZA,Food,Groceries,,-70.00,,1028.50
+409,1927752963,2025-03-25,2025-03-25 23:25,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1028.15
+410,1927752963,2025-03-26,2025-03-26 23:22,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,1027.80
+411,1927752963,2025-03-27,2025-03-27 23:24,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,1027.10
+412,1927752963,2025-03-28,2025-03-25 20:08,Panda Stellenbosch (Card 4449),PANDA                  STELLENBOSCH   ZA,Food,Restaurants,,-54.60,,972.50
+413,1927752963,2025-03-28,2025-03-26 11:44,Tamaties Stellenbosch (Card 4449),TAMATIES               STELLENBOSCH ZAZA,Food,Takeaways,,-116.00,,856.50
+414,1927752963,2025-03-28,2025-03-28 23:31,SMS Notification Fee: 1 notification(s),SMS Notification Fee: 1 notification(s),Fees,Fees,,,-0.35,856.15
+415,1927752963,2025-03-29,2025-03-27 15:13,Dis-Chem Cape Town (Card 4449),Dischem Durbanville    CAPE TOWN    WCZA,Medical,Pharmacy,,-349.06,,507.09
+416,1927752963,2025-03-29,2025-03-29 11:43,Payment Received: N Godden,N GODDEN,Other Income,Other Income,350.00,,,857.09
+417,1927752963,2025-03-29,2025-03-29 14:30,(Pending) Yellow Toast Pretoria (Card 4449),YELLOW TOAST           PRETORIA       ZA,Entertainment,Going Out,,-130.00,,
+418,1927752963,2025-03-29,2025-03-29 23:27,SMS Notification Fee: 2 notification(s),SMS Notification Fee: 2 notification(s),Fees,Fees,,,-0.70,856.39
+419,1927752963,2025-03-30,2025-03-28 16:52,Woolworths Durbanville (Card 4449),WOOLWORTHS             DURBANVILLE  WCZA,Personal & Family,Clothing & Shoes,,-108.37,,748.02
+420,1927752963,2025-03-30,2025-03-27 10:05,Buzz Cafe Stellenbosch (Card 4449),BUZZ CAFE              STELLENBOSCH   ZA,Food,Restaurants,,-65.00,,683.02
+421,1927752963,2025-03-30,2025-03-30 10:03,PowerBall Payment (TTYB46044173),|TTYB46044173,Entertainment,Betting/Lottery,,-5.00,,678.02
+422,1927752963,2025-03-30,2025-03-30 10:03,PowerBall Payment Fee,PowerBall Payment Fee,Fees,Fees,,,-2.00,676.02
+423,1927752963,2025-03-31,2025-03-29 14:28,Blaauwklippenhospital Stellenbosch (Card 4449),BLAAUWKLIPPENHOSPITAL  STELLENBOSCH ZAZA,Food,Restaurants,,-20.00,,656.02
+424,1927752963,2025-03-31,2025-03-31 08:51,(Pending) Engen Stellenbosch (Card 4449),ENGEN STELLENBOSCH     Stellenbosch   ZA,Transport,Fuel,,-100.00,,
